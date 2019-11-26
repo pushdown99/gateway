@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /opt/fopis
+mkdir -p /opt/fopis/bin
