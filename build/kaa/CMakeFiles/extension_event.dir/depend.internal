@@ -32,6 +32,6 @@ kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.o
  ../kaa/src/kaa/platform/kaa_client_properties.h
  ../kaa/src/kaa/utilities/kaa_log.h
  ../kaa/src/kaa/utilities/kaa_mem.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/event/kaa_event.c
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/event/kaa_event.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/event/kaa_event_private.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/event/kaa_event.c
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/event/kaa_event.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/event/kaa_event_private.h

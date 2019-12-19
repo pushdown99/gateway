@@ -1,0 +1,3 @@
+#!/bin/sh
+mkdir -p /opt/radix
+mkdir -p /opt/radix/bin

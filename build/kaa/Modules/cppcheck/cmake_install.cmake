@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/DEBIAN/gateway/kaa/Modules/cppcheck
+# Install script for directory: /var/www/html/SOURCES/gateway/kaa/Modules/cppcheck
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

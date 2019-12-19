@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/CMakeFiles /var/www/html/DEBIAN/gateway/build/kaa/Modules/doxygen/CMakeFiles/progress.marks
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/CMakeFiles 0
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/CMakeFiles /var/www/html/SOURCES/gateway/build/kaa/Modules/doxygen/CMakeFiles/progress.marks
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/clean
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/preinstall
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/preinstall
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kaa/Modules/doxygen/CMakeFiles/doxygen.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/CMakeFiles/doxygen.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/Modules/doxygen/CMakeFiles/doxygen.dir/rule
 .PHONY : kaa/Modules/doxygen/CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ doxygen: kaa/Modules/doxygen/CMakeFiles/doxygen.dir/rule
 
 # fast build rule for target.
 doxygen/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/Modules/doxygen/CMakeFiles/doxygen.dir/build.make kaa/Modules/doxygen/CMakeFiles/doxygen.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/Modules/doxygen/CMakeFiles/doxygen.dir/build.make kaa/Modules/doxygen/CMakeFiles/doxygen.dir/build
 .PHONY : doxygen/fast
 
 # Help Target
@@ -193,6 +193,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

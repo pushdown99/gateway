@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build
 
 # Utility rule file for doxygen.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
 include kaa/Modules/doxygen/CMakeFiles/doxygen.dir/progress.make
 
 kaa/Modules/doxygen/CMakeFiles/doxygen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating doxygen docs"
-	cd /var/www/html/DEBIAN/gateway/kaa && /usr/bin/cmake -E make_directory target/apidocs/doxygen
-	cd /var/www/html/DEBIAN/gateway/kaa && /usr/bin/doxygen Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating doxygen docs"
+	cd /var/www/html/SOURCES/gateway/kaa && /usr/bin/cmake -E make_directory target/apidocs/doxygen
+	cd /var/www/html/SOURCES/gateway/kaa && /usr/bin/doxygen Doxyfile
 
 doxygen: kaa/Modules/doxygen/CMakeFiles/doxygen
 doxygen: kaa/Modules/doxygen/CMakeFiles/doxygen.dir/build.make
@@ -69,10 +69,10 @@ kaa/Modules/doxygen/CMakeFiles/doxygen.dir/build: doxygen
 .PHONY : kaa/Modules/doxygen/CMakeFiles/doxygen.dir/build
 
 kaa/Modules/doxygen/CMakeFiles/doxygen.dir/clean:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/Modules/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen.dir/cmake_clean.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa/Modules/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen.dir/cmake_clean.cmake
 .PHONY : kaa/Modules/doxygen/CMakeFiles/doxygen.dir/clean
 
 kaa/Modules/doxygen/CMakeFiles/doxygen.dir/depend:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/DEBIAN/gateway /var/www/html/DEBIAN/gateway/kaa/Modules/doxygen /var/www/html/DEBIAN/gateway/build /var/www/html/DEBIAN/gateway/build/kaa/Modules/doxygen /var/www/html/DEBIAN/gateway/build/kaa/Modules/doxygen/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/SOURCES/gateway /var/www/html/SOURCES/gateway/kaa/Modules/doxygen /var/www/html/SOURCES/gateway/build /var/www/html/SOURCES/gateway/build/kaa/Modules/doxygen /var/www/html/SOURCES/gateway/build/kaa/Modules/doxygen/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kaa/Modules/doxygen/CMakeFiles/doxygen.dir/depend
 

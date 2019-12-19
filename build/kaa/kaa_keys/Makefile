@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build/kaa/kaa_keys
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

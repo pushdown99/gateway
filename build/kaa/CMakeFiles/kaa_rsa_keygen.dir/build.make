@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build
 
 # Utility rule file for kaa_rsa_keygen.
 
@@ -64,52 +64,52 @@ kaa/CMakeFiles/kaa_rsa_keygen-complete: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_ke
 kaa/CMakeFiles/kaa_rsa_keygen-complete: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure
 kaa/CMakeFiles/kaa_rsa_keygen-complete: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-build
 kaa/CMakeFiles/kaa_rsa_keygen-complete: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'kaa_rsa_keygen'"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen-complete
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'kaa_rsa_keygen'"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/SOURCES/gateway/build/kaa/CMakeFiles
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen-complete
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-done
 
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-install: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating RSA headers"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && ./generate_rsa_keys
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating RSA headers"
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && ./generate_rsa_keys
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-install
 
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'kaa_rsa_keygen'"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/tmp
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'kaa_rsa_keygen'"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/SOURCES/gateway/build/kaa/kaa_keys
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/tmp
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E make_directory /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-mkdir
 
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-download: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'kaa_rsa_keygen'"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E echo_append
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'kaa_rsa_keygen'"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E echo_append
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-download
 
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-update: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'kaa_rsa_keygen'"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E echo_append
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'kaa_rsa_keygen'"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E echo_append
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-update
 
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-patch: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'kaa_rsa_keygen'"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E echo_append
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'kaa_rsa_keygen'"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E echo_append
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-patch
 
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure: kaa/kaa_rsa_keygen-prefix/tmp/kaa_rsa_keygen-cfgcmd.txt
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-update
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'kaa_rsa_keygen'"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && /usr/bin/cmake -DKAA_SDK_DIR=/var/www/html/DEBIAN/gateway/kaa "-GUnix Makefiles" /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'kaa_rsa_keygen'"
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && /usr/bin/cmake -DKAA_SDK_DIR=/var/www/html/SOURCES/gateway/kaa "-GUnix Makefiles" /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure
 
 kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-build: kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'kaa_rsa_keygen'"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE)
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && /usr/bin/cmake -E touch /var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'kaa_rsa_keygen'"
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE)
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && /usr/bin/cmake -E touch /var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-build
 
 kaa_rsa_keygen: kaa/CMakeFiles/kaa_rsa_keygen
 kaa_rsa_keygen: kaa/CMakeFiles/kaa_rsa_keygen-complete
@@ -130,10 +130,10 @@ kaa/CMakeFiles/kaa_rsa_keygen.dir/build: kaa_rsa_keygen
 .PHONY : kaa/CMakeFiles/kaa_rsa_keygen.dir/build
 
 kaa/CMakeFiles/kaa_rsa_keygen.dir/clean:
-	cd /var/www/html/DEBIAN/gateway/build/kaa && $(CMAKE_COMMAND) -P CMakeFiles/kaa_rsa_keygen.dir/cmake_clean.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa && $(CMAKE_COMMAND) -P CMakeFiles/kaa_rsa_keygen.dir/cmake_clean.cmake
 .PHONY : kaa/CMakeFiles/kaa_rsa_keygen.dir/clean
 
 kaa/CMakeFiles/kaa_rsa_keygen.dir/depend:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/DEBIAN/gateway /var/www/html/DEBIAN/gateway/kaa /var/www/html/DEBIAN/gateway/build /var/www/html/DEBIAN/gateway/build/kaa /var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/SOURCES/gateway /var/www/html/SOURCES/gateway/kaa /var/www/html/SOURCES/gateway/build /var/www/html/SOURCES/gateway/build/kaa /var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kaa/CMakeFiles/kaa_rsa_keygen.dir/depend
 

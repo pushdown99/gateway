@@ -71,9 +71,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
-  "/var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/CMakeLists.txt"
-  "/var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/CMakeLists.txt"
-  "/var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/CMakeLists.txt"
+  "/var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/CMakeLists.txt"
+  "/var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/CMakeLists.txt"
+  "/var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

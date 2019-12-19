@@ -27,5 +27,5 @@ kaa/CMakeFiles/extension_bootstrap.dir/src/extensions/bootstrap/kaa_bootstrap_ma
  ../kaa/src/kaa/platform/kaa_client_properties.h
  ../kaa/src/kaa/utilities/kaa_log.h
  ../kaa/src/kaa/utilities/kaa_mem.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/bootstrap/kaa_bootstrap_manager.c
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/bootstrap/kaa_bootstrap_manager.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/bootstrap/kaa_bootstrap_manager.c
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/bootstrap/kaa_bootstrap_manager.h

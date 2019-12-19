@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/var/www/html/DEBIAN/gateway/kaa/src/extensions/event/kaa_event.c" "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.o"
+  "/var/www/html/SOURCES/gateway/kaa/src/extensions/event/kaa_event.c" "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -27,14 +27,14 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/kaac.dir/DependInfo.cmake"
-  "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/extension_bootstrap.dir/DependInfo.cmake"
-  "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/extension_profile.dir/DependInfo.cmake"
-  "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/extension_user.dir/DependInfo.cmake"
-  "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/extension_configuration.dir/DependInfo.cmake"
-  "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/extension_logging.dir/DependInfo.cmake"
-  "/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/extension_notification.dir/DependInfo.cmake"
-  "/var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/kaac.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/extension_bootstrap.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/extension_profile.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/extension_user.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/extension_configuration.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/extension_logging.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/extension_notification.dir/DependInfo.cmake"
+  "/var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

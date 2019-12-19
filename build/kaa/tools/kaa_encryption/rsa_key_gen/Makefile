@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/CMakeFiles /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/progress.marks
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/CMakeFiles 0
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/CMakeFiles /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/progress.marks
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/clean
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/preinstall
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/preinstall
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/rule
 .PHONY : kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ rsa_keygen: kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/rule
 
 # fast build rule for target.
 rsa_keygen/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build
 .PHONY : rsa_keygen/fast
 
 kaa_rsa_key_gen.o: kaa_rsa_key_gen.c.o
@@ -175,7 +175,7 @@ kaa_rsa_key_gen.o: kaa_rsa_key_gen.c.o
 
 # target to build an object file
 kaa_rsa_key_gen.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o
 .PHONY : kaa_rsa_key_gen.c.o
 
 kaa_rsa_key_gen.i: kaa_rsa_key_gen.c.i
@@ -184,7 +184,7 @@ kaa_rsa_key_gen.i: kaa_rsa_key_gen.c.i
 
 # target to preprocess a source file
 kaa_rsa_key_gen.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.i
 .PHONY : kaa_rsa_key_gen.c.i
 
 kaa_rsa_key_gen.s: kaa_rsa_key_gen.c.s
@@ -193,7 +193,7 @@ kaa_rsa_key_gen.s: kaa_rsa_key_gen.c.s
 
 # target to generate assembly for a file
 kaa_rsa_key_gen.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.s
 .PHONY : kaa_rsa_key_gen.c.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

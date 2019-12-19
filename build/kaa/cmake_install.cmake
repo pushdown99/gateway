@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/DEBIAN/gateway/kaa
+# Install script for directory: /var/www/html/SOURCES/gateway/kaa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kaa" TYPE DIRECTORY FILES "/var/www/html/DEBIAN/gateway/kaa/src/kaa/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kaa" TYPE DIRECTORY FILES "/var/www/html/SOURCES/gateway/kaa/src/kaa/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/var/www/html/DEBIAN/gateway/build/kaa/libkaac.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/var/www/html/SOURCES/gateway/build/kaa/libkaac.a")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/cmake_install.cmake")
-  include("/var/www/html/DEBIAN/gateway/build/kaa/Modules/doxygen/cmake_install.cmake")
-  include("/var/www/html/DEBIAN/gateway/build/kaa/Modules/cppcheck/cmake_install.cmake")
+  include("/var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/cmake_install.cmake")
+  include("/var/www/html/SOURCES/gateway/build/kaa/Modules/doxygen/cmake_install.cmake")
+  include("/var/www/html/SOURCES/gateway/build/kaa/Modules/cppcheck/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption
+# Install script for directory: /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen/cmake_install.cmake")
+  include("/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

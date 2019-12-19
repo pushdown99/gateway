@@ -34,6 +34,6 @@ kaa/CMakeFiles/extension_logging.dir/src/extensions/logging/kaa_logging.c.o
  ../kaa/src/kaa/platform/kaa_client_properties.h
  ../kaa/src/kaa/utilities/kaa_log.h
  ../kaa/src/kaa/utilities/kaa_mem.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/logging/kaa_logging.c
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/logging/kaa_logging.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/logging/kaa_logging_private.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/logging/kaa_logging.c
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/logging/kaa_logging.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/logging/kaa_logging_private.h

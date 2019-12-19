@@ -1,13 +1,13 @@
 # Target labels
  kaa_rsa_keygen
 # Source files and their labels
-/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen
-/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen.rule
-/var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen-complete.rule
-/var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-install.rule
-/var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-mkdir.rule
-/var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-download.rule
-/var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-update.rule
-/var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-patch.rule
-/var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure.rule
-/var/www/html/DEBIAN/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-build.rule
+/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen
+/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen.rule
+/var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/kaa_rsa_keygen-complete.rule
+/var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-install.rule
+/var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-mkdir.rule
+/var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-download.rule
+/var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-update.rule
+/var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-patch.rule
+/var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-configure.rule
+/var/www/html/SOURCES/gateway/build/kaa/kaa_rsa_keygen-prefix/src/kaa_rsa_keygen-stamp/kaa_rsa_keygen-build.rule

@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/DEBIAN/gateway/kaa/Modules/doxygen
+# Install script for directory: /var/www/html/SOURCES/gateway/kaa/Modules/doxygen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

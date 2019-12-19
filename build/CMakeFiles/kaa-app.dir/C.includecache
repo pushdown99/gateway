@@ -140,7 +140,7 @@ platform/stdio.h
 stdint.h
 -
 
-/var/www/html/DEBIAN/gateway/main.c
+/var/www/html/SOURCES/gateway/main.c
 stdio.h
 -
 stdlib.h
@@ -170,9 +170,9 @@ utilities/kaa_log.h
 platform-impl/common/ext_log_upload_strategies.h
 -
 MQTTAsync.h
-/var/www/html/DEBIAN/gateway/MQTTAsync.h
+/var/www/html/SOURCES/gateway/MQTTAsync.h
 MQTTClientPersistence.h
-/var/www/html/DEBIAN/gateway/MQTTClientPersistence.h
+/var/www/html/SOURCES/gateway/MQTTClientPersistence.h
 stdio.h
 -
 signal.h

@@ -126,7 +126,7 @@ mbedtls/sha1.h
 mbedtls/base64.h
 -
 
-/var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c
+/var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c
 kaa_rsa_key_gen.h
 -
 assert.h

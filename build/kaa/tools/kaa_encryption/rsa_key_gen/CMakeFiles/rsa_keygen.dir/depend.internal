@@ -14,4 +14,4 @@ kaa/tools/kaa_encryption/rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c
  ../kaa/thirdparty/mbedtls/mbedtls/sha1.h
  ../kaa/thirdparty/mbedtls/mbedtls/sha256.h
  ../kaa/tools/kaa_encryption/rsa_key_gen/include/kaa_rsa_key_gen.h
- /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c
+ /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c

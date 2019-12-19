@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build/kaa/kaa_keys
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen/mbedtls/CMakeFiles/progress.marks
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles 0
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen/mbedtls/CMakeFiles/progress.marks
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/clean
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/preinstall
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/preinstall
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rule
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f CMakeFiles/Makefile2 rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rule
 .PHONY : rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ mbedtls: rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rule
 
 # fast build rule for target.
 mbedtls/fast:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build
 .PHONY : mbedtls/fast
 
 aes.o: aes.c.o
@@ -131,7 +131,7 @@ aes.o: aes.c.o
 
 # target to build an object file
 aes.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o
 .PHONY : aes.c.o
 
 aes.i: aes.c.i
@@ -140,7 +140,7 @@ aes.i: aes.c.i
 
 # target to preprocess a source file
 aes.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.i
 .PHONY : aes.c.i
 
 aes.s: aes.c.s
@@ -149,7 +149,7 @@ aes.s: aes.c.s
 
 # target to generate assembly for a file
 aes.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.s
 .PHONY : aes.c.s
 
 asn1parse.o: asn1parse.c.o
@@ -158,7 +158,7 @@ asn1parse.o: asn1parse.c.o
 
 # target to build an object file
 asn1parse.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.o
 .PHONY : asn1parse.c.o
 
 asn1parse.i: asn1parse.c.i
@@ -167,7 +167,7 @@ asn1parse.i: asn1parse.c.i
 
 # target to preprocess a source file
 asn1parse.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.i
 .PHONY : asn1parse.c.i
 
 asn1parse.s: asn1parse.c.s
@@ -176,7 +176,7 @@ asn1parse.s: asn1parse.c.s
 
 # target to generate assembly for a file
 asn1parse.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.s
 .PHONY : asn1parse.c.s
 
 asn1write.o: asn1write.c.o
@@ -185,7 +185,7 @@ asn1write.o: asn1write.c.o
 
 # target to build an object file
 asn1write.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.o
 .PHONY : asn1write.c.o
 
 asn1write.i: asn1write.c.i
@@ -194,7 +194,7 @@ asn1write.i: asn1write.c.i
 
 # target to preprocess a source file
 asn1write.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.i
 .PHONY : asn1write.c.i
 
 asn1write.s: asn1write.c.s
@@ -203,7 +203,7 @@ asn1write.s: asn1write.c.s
 
 # target to generate assembly for a file
 asn1write.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.s
 .PHONY : asn1write.c.s
 
 base64.o: base64.c.o
@@ -212,7 +212,7 @@ base64.o: base64.c.o
 
 # target to build an object file
 base64.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o
 .PHONY : base64.c.o
 
 base64.i: base64.c.i
@@ -221,7 +221,7 @@ base64.i: base64.c.i
 
 # target to preprocess a source file
 base64.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.i
 .PHONY : base64.c.i
 
 base64.s: base64.c.s
@@ -230,7 +230,7 @@ base64.s: base64.c.s
 
 # target to generate assembly for a file
 base64.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.s
 .PHONY : base64.c.s
 
 bignum.o: bignum.c.o
@@ -239,7 +239,7 @@ bignum.o: bignum.c.o
 
 # target to build an object file
 bignum.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o
 .PHONY : bignum.c.o
 
 bignum.i: bignum.c.i
@@ -248,7 +248,7 @@ bignum.i: bignum.c.i
 
 # target to preprocess a source file
 bignum.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.i
 .PHONY : bignum.c.i
 
 bignum.s: bignum.c.s
@@ -257,7 +257,7 @@ bignum.s: bignum.c.s
 
 # target to generate assembly for a file
 bignum.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.s
 .PHONY : bignum.c.s
 
 ctr_drbg.o: ctr_drbg.c.o
@@ -266,7 +266,7 @@ ctr_drbg.o: ctr_drbg.c.o
 
 # target to build an object file
 ctr_drbg.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o
 .PHONY : ctr_drbg.c.o
 
 ctr_drbg.i: ctr_drbg.c.i
@@ -275,7 +275,7 @@ ctr_drbg.i: ctr_drbg.c.i
 
 # target to preprocess a source file
 ctr_drbg.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.i
 .PHONY : ctr_drbg.c.i
 
 ctr_drbg.s: ctr_drbg.c.s
@@ -284,7 +284,7 @@ ctr_drbg.s: ctr_drbg.c.s
 
 # target to generate assembly for a file
 ctr_drbg.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.s
 .PHONY : ctr_drbg.c.s
 
 entropy.o: entropy.c.o
@@ -293,7 +293,7 @@ entropy.o: entropy.c.o
 
 # target to build an object file
 entropy.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o
 .PHONY : entropy.c.o
 
 entropy.i: entropy.c.i
@@ -302,7 +302,7 @@ entropy.i: entropy.c.i
 
 # target to preprocess a source file
 entropy.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.i
 .PHONY : entropy.c.i
 
 entropy.s: entropy.c.s
@@ -311,7 +311,7 @@ entropy.s: entropy.c.s
 
 # target to generate assembly for a file
 entropy.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.s
 .PHONY : entropy.c.s
 
 entropy_poll.o: entropy_poll.c.o
@@ -320,7 +320,7 @@ entropy_poll.o: entropy_poll.c.o
 
 # target to build an object file
 entropy_poll.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.o
 .PHONY : entropy_poll.c.o
 
 entropy_poll.i: entropy_poll.c.i
@@ -329,7 +329,7 @@ entropy_poll.i: entropy_poll.c.i
 
 # target to preprocess a source file
 entropy_poll.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.i
 .PHONY : entropy_poll.c.i
 
 entropy_poll.s: entropy_poll.c.s
@@ -338,7 +338,7 @@ entropy_poll.s: entropy_poll.c.s
 
 # target to generate assembly for a file
 entropy_poll.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.s
 .PHONY : entropy_poll.c.s
 
 md.o: md.c.o
@@ -347,7 +347,7 @@ md.o: md.c.o
 
 # target to build an object file
 md.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o
 .PHONY : md.c.o
 
 md.i: md.c.i
@@ -356,7 +356,7 @@ md.i: md.c.i
 
 # target to preprocess a source file
 md.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.i
 .PHONY : md.c.i
 
 md.s: md.c.s
@@ -365,7 +365,7 @@ md.s: md.c.s
 
 # target to generate assembly for a file
 md.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.s
 .PHONY : md.c.s
 
 md_wrap.o: md_wrap.c.o
@@ -374,7 +374,7 @@ md_wrap.o: md_wrap.c.o
 
 # target to build an object file
 md_wrap.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o
 .PHONY : md_wrap.c.o
 
 md_wrap.i: md_wrap.c.i
@@ -383,7 +383,7 @@ md_wrap.i: md_wrap.c.i
 
 # target to preprocess a source file
 md_wrap.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.i
 .PHONY : md_wrap.c.i
 
 md_wrap.s: md_wrap.c.s
@@ -392,7 +392,7 @@ md_wrap.s: md_wrap.c.s
 
 # target to generate assembly for a file
 md_wrap.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.s
 .PHONY : md_wrap.c.s
 
 oid.o: oid.c.o
@@ -401,7 +401,7 @@ oid.o: oid.c.o
 
 # target to build an object file
 oid.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o
 .PHONY : oid.c.o
 
 oid.i: oid.c.i
@@ -410,7 +410,7 @@ oid.i: oid.c.i
 
 # target to preprocess a source file
 oid.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.i
 .PHONY : oid.c.i
 
 oid.s: oid.c.s
@@ -419,7 +419,7 @@ oid.s: oid.c.s
 
 # target to generate assembly for a file
 oid.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.s
 .PHONY : oid.c.s
 
 pem.o: pem.c.o
@@ -428,7 +428,7 @@ pem.o: pem.c.o
 
 # target to build an object file
 pem.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o
 .PHONY : pem.c.o
 
 pem.i: pem.c.i
@@ -437,7 +437,7 @@ pem.i: pem.c.i
 
 # target to preprocess a source file
 pem.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.i
 .PHONY : pem.c.i
 
 pem.s: pem.c.s
@@ -446,7 +446,7 @@ pem.s: pem.c.s
 
 # target to generate assembly for a file
 pem.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.s
 .PHONY : pem.c.s
 
 pk.o: pk.c.o
@@ -455,7 +455,7 @@ pk.o: pk.c.o
 
 # target to build an object file
 pk.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o
 .PHONY : pk.c.o
 
 pk.i: pk.c.i
@@ -464,7 +464,7 @@ pk.i: pk.c.i
 
 # target to preprocess a source file
 pk.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.i
 .PHONY : pk.c.i
 
 pk.s: pk.c.s
@@ -473,7 +473,7 @@ pk.s: pk.c.s
 
 # target to generate assembly for a file
 pk.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.s
 .PHONY : pk.c.s
 
 pk_wrap.o: pk_wrap.c.o
@@ -482,7 +482,7 @@ pk_wrap.o: pk_wrap.c.o
 
 # target to build an object file
 pk_wrap.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o
 .PHONY : pk_wrap.c.o
 
 pk_wrap.i: pk_wrap.c.i
@@ -491,7 +491,7 @@ pk_wrap.i: pk_wrap.c.i
 
 # target to preprocess a source file
 pk_wrap.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.i
 .PHONY : pk_wrap.c.i
 
 pk_wrap.s: pk_wrap.c.s
@@ -500,7 +500,7 @@ pk_wrap.s: pk_wrap.c.s
 
 # target to generate assembly for a file
 pk_wrap.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.s
 .PHONY : pk_wrap.c.s
 
 pkparse.o: pkparse.c.o
@@ -509,7 +509,7 @@ pkparse.o: pkparse.c.o
 
 # target to build an object file
 pkparse.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o
 .PHONY : pkparse.c.o
 
 pkparse.i: pkparse.c.i
@@ -518,7 +518,7 @@ pkparse.i: pkparse.c.i
 
 # target to preprocess a source file
 pkparse.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.i
 .PHONY : pkparse.c.i
 
 pkparse.s: pkparse.c.s
@@ -527,7 +527,7 @@ pkparse.s: pkparse.c.s
 
 # target to generate assembly for a file
 pkparse.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.s
 .PHONY : pkparse.c.s
 
 pkwrite.o: pkwrite.c.o
@@ -536,7 +536,7 @@ pkwrite.o: pkwrite.c.o
 
 # target to build an object file
 pkwrite.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o
 .PHONY : pkwrite.c.o
 
 pkwrite.i: pkwrite.c.i
@@ -545,7 +545,7 @@ pkwrite.i: pkwrite.c.i
 
 # target to preprocess a source file
 pkwrite.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.i
 .PHONY : pkwrite.c.i
 
 pkwrite.s: pkwrite.c.s
@@ -554,7 +554,7 @@ pkwrite.s: pkwrite.c.s
 
 # target to generate assembly for a file
 pkwrite.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.s
 .PHONY : pkwrite.c.s
 
 rsa.o: rsa.c.o
@@ -563,7 +563,7 @@ rsa.o: rsa.c.o
 
 # target to build an object file
 rsa.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o
 .PHONY : rsa.c.o
 
 rsa.i: rsa.c.i
@@ -572,7 +572,7 @@ rsa.i: rsa.c.i
 
 # target to preprocess a source file
 rsa.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.i
 .PHONY : rsa.c.i
 
 rsa.s: rsa.c.s
@@ -581,7 +581,7 @@ rsa.s: rsa.c.s
 
 # target to generate assembly for a file
 rsa.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.s
 .PHONY : rsa.c.s
 
 sha1.o: sha1.c.o
@@ -590,7 +590,7 @@ sha1.o: sha1.c.o
 
 # target to build an object file
 sha1.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o
 .PHONY : sha1.c.o
 
 sha1.i: sha1.c.i
@@ -599,7 +599,7 @@ sha1.i: sha1.c.i
 
 # target to preprocess a source file
 sha1.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.i
 .PHONY : sha1.c.i
 
 sha1.s: sha1.c.s
@@ -608,7 +608,7 @@ sha1.s: sha1.c.s
 
 # target to generate assembly for a file
 sha1.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.s
 .PHONY : sha1.c.s
 
 sha256.o: sha256.c.o
@@ -617,7 +617,7 @@ sha256.o: sha256.c.o
 
 # target to build an object file
 sha256.c.o:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o
 .PHONY : sha256.c.o
 
 sha256.i: sha256.c.i
@@ -626,7 +626,7 @@ sha256.i: sha256.c.i
 
 # target to preprocess a source file
 sha256.c.i:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.i
 .PHONY : sha256.c.i
 
 sha256.s: sha256.c.s
@@ -635,7 +635,7 @@ sha256.s: sha256.c.s
 
 # target to generate assembly for a file
 sha256.c.s:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(MAKE) -f rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.s
 .PHONY : sha256.c.s
 
 # Help Target
@@ -715,6 +715,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,5 +6,5 @@ C_FLAGS =  -fPIC -std=c99 -Wall -Wextra -pedantic -D_GNU_SOURCE
 
 C_DEFINES = 
 
-C_INCLUDES = -I/var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen -I/var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/include -I/var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/mbedtls -I/var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls 
+C_INCLUDES = -I/var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen -I/var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/include -I/var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/mbedtls -I/var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls 
 

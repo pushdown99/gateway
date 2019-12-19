@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build/kaa/kaa_keys
 
 # Include any dependencies generated for this target.
 include rsa_key_gen/CMakeFiles/rsa_keygen.dir/depend.make
@@ -58,17 +58,17 @@ include rsa_key_gen/CMakeFiles/rsa_keygen.dir/progress.make
 include rsa_key_gen/CMakeFiles/rsa_keygen.dir/flags.make
 
 rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o: rsa_key_gen/CMakeFiles/rsa_keygen.dir/flags.make
-rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o: /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o   -c /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c
+rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o: /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o   -c /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c
 
 rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c > CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c > CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.i
 
 rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c -o CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen/kaa_rsa_key_gen.c -o CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.s
 
 rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o.requires:
 
@@ -91,9 +91,9 @@ rsa_keygen_EXTERNAL_OBJECTS =
 rsa_key_gen/librsa_keygen.a: rsa_key_gen/CMakeFiles/rsa_keygen.dir/kaa_rsa_key_gen.c.o
 rsa_key_gen/librsa_keygen.a: rsa_key_gen/CMakeFiles/rsa_keygen.dir/build.make
 rsa_key_gen/librsa_keygen.a: rsa_key_gen/CMakeFiles/rsa_keygen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library librsa_keygen.a"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen && $(CMAKE_COMMAND) -P CMakeFiles/rsa_keygen.dir/cmake_clean_target.cmake
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rsa_keygen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library librsa_keygen.a"
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen && $(CMAKE_COMMAND) -P CMakeFiles/rsa_keygen.dir/cmake_clean_target.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rsa_keygen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 rsa_key_gen/CMakeFiles/rsa_keygen.dir/build: rsa_key_gen/librsa_keygen.a
@@ -105,10 +105,10 @@ rsa_key_gen/CMakeFiles/rsa_keygen.dir/requires: rsa_key_gen/CMakeFiles/rsa_keyge
 .PHONY : rsa_key_gen/CMakeFiles/rsa_keygen.dir/requires
 
 rsa_key_gen/CMakeFiles/rsa_keygen.dir/clean:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen && $(CMAKE_COMMAND) -P CMakeFiles/rsa_keygen.dir/cmake_clean.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen && $(CMAKE_COMMAND) -P CMakeFiles/rsa_keygen.dir/cmake_clean.cmake
 .PHONY : rsa_key_gen/CMakeFiles/rsa_keygen.dir/clean
 
 rsa_key_gen/CMakeFiles/rsa_keygen.dir/depend:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption /var/www/html/DEBIAN/gateway/kaa/tools/kaa_encryption/rsa_key_gen /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/rsa_key_gen/CMakeFiles/rsa_keygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /var/www/html/SOURCES/gateway/build/kaa/kaa_keys && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption /var/www/html/SOURCES/gateway/kaa/tools/kaa_encryption/rsa_key_gen /var/www/html/SOURCES/gateway/build/kaa/kaa_keys /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/rsa_key_gen/CMakeFiles/rsa_keygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rsa_key_gen/CMakeFiles/rsa_keygen.dir/depend
 

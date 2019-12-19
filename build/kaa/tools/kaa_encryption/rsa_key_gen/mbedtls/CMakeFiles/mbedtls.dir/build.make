@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build
 
 # Include any dependencies generated for this target.
 include kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/depend.make
@@ -59,16 +59,16 @@ include kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flag
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o: ../kaa/thirdparty/mbedtls/aes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/aes.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/aes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/aes.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/aes.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/aes.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/aes.c > CMakeFiles/mbedtls.dir/aes.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/aes.c > CMakeFiles/mbedtls.dir/aes.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/aes.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/aes.c -o CMakeFiles/mbedtls.dir/aes.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/aes.c -o CMakeFiles/mbedtls.dir/aes.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o.requires:
 
@@ -83,16 +83,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/aes.c.o.prov
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.o: ../kaa/thirdparty/mbedtls/asn1parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/asn1parse.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/asn1parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/asn1parse.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/asn1parse.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/asn1parse.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/asn1parse.c > CMakeFiles/mbedtls.dir/asn1parse.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/asn1parse.c > CMakeFiles/mbedtls.dir/asn1parse.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/asn1parse.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/asn1parse.c -o CMakeFiles/mbedtls.dir/asn1parse.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/asn1parse.c -o CMakeFiles/mbedtls.dir/asn1parse.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.o.requires:
 
@@ -107,16 +107,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1parse.c.
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.o: ../kaa/thirdparty/mbedtls/asn1write.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/asn1write.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/asn1write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/asn1write.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/asn1write.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/asn1write.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/asn1write.c > CMakeFiles/mbedtls.dir/asn1write.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/asn1write.c > CMakeFiles/mbedtls.dir/asn1write.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/asn1write.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/asn1write.c -o CMakeFiles/mbedtls.dir/asn1write.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/asn1write.c -o CMakeFiles/mbedtls.dir/asn1write.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.o.requires:
 
@@ -131,16 +131,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/asn1write.c.
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o: ../kaa/thirdparty/mbedtls/bignum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/bignum.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/bignum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/bignum.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/bignum.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/bignum.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/bignum.c > CMakeFiles/mbedtls.dir/bignum.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/bignum.c > CMakeFiles/mbedtls.dir/bignum.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/bignum.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/bignum.c -o CMakeFiles/mbedtls.dir/bignum.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/bignum.c -o CMakeFiles/mbedtls.dir/bignum.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o.requires:
 
@@ -155,16 +155,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/bignum.c.o.p
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o: ../kaa/thirdparty/mbedtls/ctr_drbg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/ctr_drbg.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/ctr_drbg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/ctr_drbg.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/ctr_drbg.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/ctr_drbg.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/ctr_drbg.c > CMakeFiles/mbedtls.dir/ctr_drbg.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/ctr_drbg.c > CMakeFiles/mbedtls.dir/ctr_drbg.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/ctr_drbg.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/ctr_drbg.c -o CMakeFiles/mbedtls.dir/ctr_drbg.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/ctr_drbg.c -o CMakeFiles/mbedtls.dir/ctr_drbg.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o.requires:
 
@@ -179,16 +179,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/ctr_drbg.c.o
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o: ../kaa/thirdparty/mbedtls/entropy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/entropy.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/entropy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/entropy.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/entropy.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/entropy.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/entropy.c > CMakeFiles/mbedtls.dir/entropy.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/entropy.c > CMakeFiles/mbedtls.dir/entropy.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/entropy.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/entropy.c -o CMakeFiles/mbedtls.dir/entropy.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/entropy.c -o CMakeFiles/mbedtls.dir/entropy.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o.requires:
 
@@ -203,16 +203,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy.c.o.
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.o: ../kaa/thirdparty/mbedtls/entropy_poll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/entropy_poll.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/entropy_poll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/entropy_poll.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/entropy_poll.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/entropy_poll.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/entropy_poll.c > CMakeFiles/mbedtls.dir/entropy_poll.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/entropy_poll.c > CMakeFiles/mbedtls.dir/entropy_poll.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/entropy_poll.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/entropy_poll.c -o CMakeFiles/mbedtls.dir/entropy_poll.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/entropy_poll.c -o CMakeFiles/mbedtls.dir/entropy_poll.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll.c.o.requires:
 
@@ -227,16 +227,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/entropy_poll
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o: ../kaa/thirdparty/mbedtls/md.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/md.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/md.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/md.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/md.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/md.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/md.c > CMakeFiles/mbedtls.dir/md.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/md.c > CMakeFiles/mbedtls.dir/md.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/md.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/md.c -o CMakeFiles/mbedtls.dir/md.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/md.c -o CMakeFiles/mbedtls.dir/md.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o.requires:
 
@@ -251,16 +251,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md.c.o.provi
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o: ../kaa/thirdparty/mbedtls/md_wrap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/md_wrap.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/md_wrap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/md_wrap.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/md_wrap.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/md_wrap.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/md_wrap.c > CMakeFiles/mbedtls.dir/md_wrap.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/md_wrap.c > CMakeFiles/mbedtls.dir/md_wrap.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/md_wrap.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/md_wrap.c -o CMakeFiles/mbedtls.dir/md_wrap.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/md_wrap.c -o CMakeFiles/mbedtls.dir/md_wrap.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o.requires:
 
@@ -275,16 +275,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/md_wrap.c.o.
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o: ../kaa/thirdparty/mbedtls/oid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/oid.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/oid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/oid.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/oid.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/oid.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/oid.c > CMakeFiles/mbedtls.dir/oid.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/oid.c > CMakeFiles/mbedtls.dir/oid.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/oid.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/oid.c -o CMakeFiles/mbedtls.dir/oid.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/oid.c -o CMakeFiles/mbedtls.dir/oid.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o.requires:
 
@@ -299,16 +299,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/oid.c.o.prov
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o: ../kaa/thirdparty/mbedtls/pk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pk.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pk.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pk.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/pk.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pk.c > CMakeFiles/mbedtls.dir/pk.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pk.c > CMakeFiles/mbedtls.dir/pk.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/pk.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pk.c -o CMakeFiles/mbedtls.dir/pk.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pk.c -o CMakeFiles/mbedtls.dir/pk.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o.requires:
 
@@ -323,16 +323,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk.c.o.provi
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o: ../kaa/thirdparty/mbedtls/pkwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pkwrite.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pkwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pkwrite.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pkwrite.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/pkwrite.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pkwrite.c > CMakeFiles/mbedtls.dir/pkwrite.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pkwrite.c > CMakeFiles/mbedtls.dir/pkwrite.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/pkwrite.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pkwrite.c -o CMakeFiles/mbedtls.dir/pkwrite.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pkwrite.c -o CMakeFiles/mbedtls.dir/pkwrite.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o.requires:
 
@@ -347,16 +347,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkwrite.c.o.
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o: ../kaa/thirdparty/mbedtls/pem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pem.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pem.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pem.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/pem.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pem.c > CMakeFiles/mbedtls.dir/pem.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pem.c > CMakeFiles/mbedtls.dir/pem.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/pem.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pem.c -o CMakeFiles/mbedtls.dir/pem.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pem.c -o CMakeFiles/mbedtls.dir/pem.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o.requires:
 
@@ -371,16 +371,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pem.c.o.prov
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o: ../kaa/thirdparty/mbedtls/pk_wrap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pk_wrap.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pk_wrap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pk_wrap.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pk_wrap.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/pk_wrap.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pk_wrap.c > CMakeFiles/mbedtls.dir/pk_wrap.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pk_wrap.c > CMakeFiles/mbedtls.dir/pk_wrap.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/pk_wrap.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pk_wrap.c -o CMakeFiles/mbedtls.dir/pk_wrap.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pk_wrap.c -o CMakeFiles/mbedtls.dir/pk_wrap.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o.requires:
 
@@ -395,16 +395,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pk_wrap.c.o.
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o: ../kaa/thirdparty/mbedtls/rsa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/rsa.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/rsa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/rsa.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/rsa.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/rsa.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/rsa.c > CMakeFiles/mbedtls.dir/rsa.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/rsa.c > CMakeFiles/mbedtls.dir/rsa.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/rsa.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/rsa.c -o CMakeFiles/mbedtls.dir/rsa.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/rsa.c -o CMakeFiles/mbedtls.dir/rsa.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o.requires:
 
@@ -419,16 +419,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/rsa.c.o.prov
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o: ../kaa/thirdparty/mbedtls/sha256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/sha256.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/sha256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/sha256.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/sha256.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/sha256.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/sha256.c > CMakeFiles/mbedtls.dir/sha256.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/sha256.c > CMakeFiles/mbedtls.dir/sha256.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/sha256.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/sha256.c -o CMakeFiles/mbedtls.dir/sha256.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/sha256.c -o CMakeFiles/mbedtls.dir/sha256.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o.requires:
 
@@ -443,16 +443,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha256.c.o.p
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o: ../kaa/thirdparty/mbedtls/pkparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pkparse.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pkparse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/pkparse.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pkparse.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/pkparse.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pkparse.c > CMakeFiles/mbedtls.dir/pkparse.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pkparse.c > CMakeFiles/mbedtls.dir/pkparse.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/pkparse.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/pkparse.c -o CMakeFiles/mbedtls.dir/pkparse.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/pkparse.c -o CMakeFiles/mbedtls.dir/pkparse.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o.requires:
 
@@ -467,16 +467,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/pkparse.c.o.
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o: ../kaa/thirdparty/mbedtls/sha1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/sha1.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/sha1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/sha1.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/sha1.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/sha1.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/sha1.c > CMakeFiles/mbedtls.dir/sha1.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/sha1.c > CMakeFiles/mbedtls.dir/sha1.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/sha1.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/sha1.c -o CMakeFiles/mbedtls.dir/sha1.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/sha1.c -o CMakeFiles/mbedtls.dir/sha1.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o.requires:
 
@@ -491,16 +491,16 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/sha1.c.o.pro
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/flags.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o: ../kaa/thirdparty/mbedtls/base64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/base64.c.o   -c /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/base64.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mbedtls.dir/base64.c.o   -c /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/base64.c
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedtls.dir/base64.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/base64.c > CMakeFiles/mbedtls.dir/base64.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/base64.c > CMakeFiles/mbedtls.dir/base64.c.i
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedtls.dir/base64.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/base64.c -o CMakeFiles/mbedtls.dir/base64.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/base64.c -o CMakeFiles/mbedtls.dir/base64.c.s
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o.requires:
 
@@ -559,9 +559,9 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/libmbedtls.a: kaa/tools/kaa_encrypt
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/libmbedtls.a: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/base64.c.o
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/libmbedtls.a: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build.make
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/libmbedtls.a: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library libmbedtls.a"
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls.dir/cmake_clean_target.cmake
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedtls.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library libmbedtls.a"
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls.dir/cmake_clean_target.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedtls.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/build: kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/libmbedtls.a
@@ -591,10 +591,10 @@ kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/requires: ka
 .PHONY : kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/requires
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/clean:
-	cd /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls.dir/cmake_clean.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls.dir/cmake_clean.cmake
 .PHONY : kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/clean
 
 kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/depend:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/DEBIAN/gateway /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls /var/www/html/DEBIAN/gateway/build /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls /var/www/html/DEBIAN/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/DependInfo.cmake --color=$(COLOR)
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/SOURCES/gateway /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls /var/www/html/SOURCES/gateway/build /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls /var/www/html/SOURCES/gateway/build/kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kaa/tools/kaa_encryption/rsa_key_gen/mbedtls/CMakeFiles/mbedtls.dir/depend
 

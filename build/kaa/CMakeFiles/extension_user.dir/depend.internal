@@ -28,6 +28,6 @@ kaa/CMakeFiles/extension_user.dir/src/extensions/user/kaa_user.c.o
  ../kaa/src/kaa/platform/kaa_client_properties.h
  ../kaa/src/kaa/utilities/kaa_log.h
  ../kaa/src/kaa/utilities/kaa_mem.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/user/kaa_user.c
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/user/kaa_user.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/user/kaa_user_private.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/user/kaa_user.c
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/user/kaa_user.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/user/kaa_user_private.h

@@ -34,5 +34,5 @@ kaa/CMakeFiles/extension_profile.dir/src/extensions/profile/kaa_profile.c.o
  ../kaa/src/kaa/platform/kaa_client_properties.h
  ../kaa/src/kaa/utilities/kaa_log.h
  ../kaa/src/kaa/utilities/kaa_mem.h
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/profile/kaa_profile.c
- /var/www/html/DEBIAN/gateway/kaa/src/extensions/profile/kaa_profile_private.h
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/profile/kaa_profile.c
+ /var/www/html/SOURCES/gateway/kaa/src/extensions/profile/kaa_profile_private.h

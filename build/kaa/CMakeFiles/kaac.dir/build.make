@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build
 
 # Include any dependencies generated for this target.
 include kaa/CMakeFiles/kaac.dir/depend.make
@@ -59,16 +59,16 @@ include kaa/CMakeFiles/kaac.dir/flags.make
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o: ../kaa/src/kaa/platform-impl/posix/kaa_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/kaa_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/kaa_client.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/kaa_client.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/kaa_client.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/kaa_client.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/kaa_client.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o.requires:
 
@@ -83,16 +83,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o.provides.buil
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o: ../kaa/src/kaa/platform-impl/posix/logger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/logger.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/logger.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/logger.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/logger.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/logger.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/logger.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o.requires:
 
@@ -107,16 +107,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o.provides.build: k
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o: ../kaa/src/kaa/platform-impl/posix/file_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/file_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/file_utils.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/file_utils.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/file_utils.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/file_utils.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/file_utils.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o.requires:
 
@@ -131,16 +131,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o.provides.buil
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o: ../kaa/src/kaa/platform-impl/posix/status.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/status.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/status.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/status.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/status.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/status.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/status.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o.requires:
 
@@ -155,16 +155,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o.provides.build: k
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o: ../kaa/src/kaa/platform-impl/posix/configuration_persistence.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/configuration_persistence.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/configuration_persistence.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/configuration_persistence.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/configuration_persistence.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/configuration_persistence.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/configuration_persistence.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o.requires:
 
@@ -179,16 +179,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o: ../kaa/src/kaa/platform-impl/common/sha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/sha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/sha.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/sha.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/sha.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/sha.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/sha.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o.requires:
 
@@ -203,16 +203,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o.provides.build: kaa
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o: ../kaa/src/kaa/platform-impl/common/kaa_failover_strategy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_failover_strategy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_failover_strategy.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_failover_strategy.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_failover_strategy.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_failover_strategy.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_failover_strategy.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o.requires:
 
@@ -227,16 +227,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o.p
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o: ../kaa/src/kaa/platform-impl/common/ext_log_storage_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/ext_log_storage_memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/ext_log_storage_memory.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/ext_log_storage_memory.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/ext_log_storage_memory.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/ext_log_storage_memory.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/ext_log_storage_memory.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o.requires:
 
@@ -251,16 +251,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o.
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o: ../kaa/src/kaa/platform-impl/common/ext_log_upload_strategies.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/ext_log_upload_strategies.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/ext_log_upload_strategies.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/ext_log_upload_strategies.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/ext_log_upload_strategies.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/ext_log_upload_strategies.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/ext_log_upload_strategies.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o.requires:
 
@@ -275,16 +275,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o: ../kaa/src/kaa/platform-impl/common/key_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/key_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/key_utils.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/key_utils.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/key_utils.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/key_utils.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/key_utils.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o.requires:
 
@@ -299,16 +299,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o.provides.buil
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o: ../kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c > CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c > CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o.requires:
 
@@ -323,16 +323,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o.provides
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o: ../kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c > CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c > CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c -o CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o.requires:
 
@@ -347,16 +347,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o.provide
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o: ../kaa/src/kaa/platform-impl/posix/tcp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/tcp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/tcp_utils.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/tcp_utils.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/tcp_utils.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix/tcp_utils.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix/tcp_utils.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o.requires:
 
@@ -371,16 +371,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o.provides.build
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o: ../kaa/src/kaa/platform-impl/common/kaa_tcp_channel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_tcp_channel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_tcp_channel.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_tcp_channel.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_tcp_channel.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_tcp_channel.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_tcp_channel.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o.requires:
 
@@ -395,16 +395,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o.provide
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o: ../kaa/src/kaa/avro_src/io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/avro_src/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/avro_src/io.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/avro_src/io.c > CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/avro_src/io.c > CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/avro_src/io.c -o CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/avro_src/io.c -o CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o.requires:
 
@@ -419,16 +419,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o.provides.build: kaa/CMakeFiles/k
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o: ../kaa/src/kaa/avro_src/encoding_binary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/avro_src/encoding_binary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/avro_src/encoding_binary.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/avro_src/encoding_binary.c > CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/avro_src/encoding_binary.c > CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/avro_src/encoding_binary.c -o CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/avro_src/encoding_binary.c -o CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o.requires:
 
@@ -443,16 +443,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o.provides.build: kaa
 
 kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o: ../kaa/src/kaa/collections/kaa_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/collections/kaa_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/collections/kaa_list.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/collections/kaa_list.c > CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/collections/kaa_list.c > CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/collections/kaa_list.c -o CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/collections/kaa_list.c -o CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o.requires:
 
@@ -467,16 +467,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o.provides.build: kaa/CMa
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o: ../kaa/src/kaa/utilities/kaa_aes_rsa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_aes_rsa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_aes_rsa.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_aes_rsa.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_aes_rsa.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_aes_rsa.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_aes_rsa.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o.requires:
 
@@ -491,16 +491,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o.provides.build: kaa/CM
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o: ../kaa/src/kaa/utilities/kaa_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_log.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_log.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_log.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_log.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_log.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o.requires:
 
@@ -515,16 +515,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o.provides.build: kaa/CMakeF
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o: ../kaa/src/kaa/utilities/kaa_mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_mem.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_mem.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_mem.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_mem.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_mem.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o.requires:
 
@@ -539,16 +539,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o.provides.build: kaa/CMakeF
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o: ../kaa/src/kaa/utilities/kaa_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_buffer.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_buffer.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_buffer.c > CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/utilities/kaa_buffer.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/utilities/kaa_buffer.c -o CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o.requires:
 
@@ -563,16 +563,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o.provides.build: kaa/CMa
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o: ../kaa/src/kaa/kaa_platform_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_platform_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_platform_utils.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_platform_utils.c > CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_platform_utils.c > CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_platform_utils.c -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_platform_utils.c -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o.requires:
 
@@ -587,16 +587,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o.provides.build: kaa/CMake
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o: ../kaa/src/kaa/kaa_platform_protocol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_platform_protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_platform_protocol.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_platform_protocol.c > CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_platform_protocol.c > CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_platform_protocol.c -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_platform_protocol.c -o CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o.requires:
 
@@ -611,16 +611,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o.provides.build: kaa/CM
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o: ../kaa/src/kaa/kaa_channel_manager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_channel_manager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_channel_manager.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_channel_manager.c > CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_channel_manager.c > CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_channel_manager.c -o CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_channel_manager.c -o CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o.requires:
 
@@ -635,16 +635,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o.provides.build: kaa/CMak
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o: ../kaa/src/kaa/kaa_common_schema.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_common_schema.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_common_schema.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_common_schema.c > CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_common_schema.c > CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_common_schema.c -o CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_common_schema.c -o CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o.requires:
 
@@ -659,16 +659,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o.provides.build: kaa/CMakeF
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o: ../kaa/src/kaa/kaa_status.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_status.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_status.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_status.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_status.c > CMakeFiles/kaac.dir/src/kaa/kaa_status.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_status.c > CMakeFiles/kaac.dir/src/kaa/kaa_status.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_status.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_status.c -o CMakeFiles/kaac.dir/src/kaa/kaa_status.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_status.c -o CMakeFiles/kaac.dir/src/kaa/kaa_status.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o.requires:
 
@@ -683,16 +683,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o.provides.build: kaa/CMakeFiles/ka
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o: ../kaa/src/kaa/kaa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa.c > CMakeFiles/kaac.dir/src/kaa/kaa.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa.c > CMakeFiles/kaac.dir/src/kaa/kaa.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa.c -o CMakeFiles/kaac.dir/src/kaa/kaa.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa.c -o CMakeFiles/kaac.dir/src/kaa/kaa.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o.requires:
 
@@ -707,16 +707,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o.provides.build: kaa/CMakeFiles/kaac.dir/
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o: ../kaa/src/kaa/kaa_extension.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_extension.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_extension.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_extension.c > CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_extension.c > CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/kaa_extension.c -o CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/kaa_extension.c -o CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o.requires:
 
@@ -731,16 +731,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o.provides.build: kaa/CMakeFiles
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o: ../kaa/src/kaa/platform-impl/common/kaa_htonll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_htonll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_htonll.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_htonll.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_htonll.c > CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/common/kaa_htonll.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/common/kaa_htonll.c -o CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o.requires:
 
@@ -755,16 +755,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o.provides.bui
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o: ../kaa/src/kaa/gen/kaa_profile_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_profile_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_profile_gen.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_profile_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_profile_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_profile_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_profile_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o.requires:
 
@@ -779,16 +779,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o.provides.build: kaa/CMak
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o: ../kaa/src/kaa/gen/kaa_logging_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_logging_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_logging_gen.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_logging_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_logging_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_logging_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_logging_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o.requires:
 
@@ -803,16 +803,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o.provides.build: kaa/CMak
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o: ../kaa/src/kaa/gen/kaa_configuration_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_configuration_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_configuration_gen.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_configuration_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_configuration_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_configuration_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_configuration_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o.requires:
 
@@ -827,16 +827,16 @@ kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o.provides.build: ka
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o: kaa/CMakeFiles/kaac.dir/flags.make
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o: ../kaa/src/kaa/gen/kaa_notification_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o   -c /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_notification_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o"
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o   -c /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_notification_gen.c
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.i"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_notification_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_notification_gen.c > CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.i
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.s"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/DEBIAN/gateway/kaa/src/kaa/gen/kaa_notification_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build/kaa && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/www/html/SOURCES/gateway/kaa/src/kaa/gen/kaa_notification_gen.c -o CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.s
 
 kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o.requires:
 
@@ -923,9 +923,9 @@ kaa/libkaac.a: kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o
 kaa/libkaac.a: kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o
 kaa/libkaac.a: kaa/CMakeFiles/kaac.dir/build.make
 kaa/libkaac.a: kaa/CMakeFiles/kaac.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/DEBIAN/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C static library libkaac.a"
-	cd /var/www/html/DEBIAN/gateway/build/kaa && $(CMAKE_COMMAND) -P CMakeFiles/kaac.dir/cmake_clean_target.cmake
-	cd /var/www/html/DEBIAN/gateway/build/kaa && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kaac.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/www/html/SOURCES/gateway/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C static library libkaac.a"
+	cd /var/www/html/SOURCES/gateway/build/kaa && $(CMAKE_COMMAND) -P CMakeFiles/kaac.dir/cmake_clean_target.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kaac.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 kaa/CMakeFiles/kaac.dir/build: kaa/libkaac.a
@@ -969,10 +969,10 @@ kaa/CMakeFiles/kaac.dir/requires: kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notifi
 .PHONY : kaa/CMakeFiles/kaac.dir/requires
 
 kaa/CMakeFiles/kaac.dir/clean:
-	cd /var/www/html/DEBIAN/gateway/build/kaa && $(CMAKE_COMMAND) -P CMakeFiles/kaac.dir/cmake_clean.cmake
+	cd /var/www/html/SOURCES/gateway/build/kaa && $(CMAKE_COMMAND) -P CMakeFiles/kaac.dir/cmake_clean.cmake
 .PHONY : kaa/CMakeFiles/kaac.dir/clean
 
 kaa/CMakeFiles/kaac.dir/depend:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/DEBIAN/gateway /var/www/html/DEBIAN/gateway/kaa /var/www/html/DEBIAN/gateway/build /var/www/html/DEBIAN/gateway/build/kaa /var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/kaac.dir/DependInfo.cmake --color=$(COLOR)
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /var/www/html/SOURCES/gateway /var/www/html/SOURCES/gateway/kaa /var/www/html/SOURCES/gateway/build /var/www/html/SOURCES/gateway/build/kaa /var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/kaac.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kaa/CMakeFiles/kaac.dir/depend
 

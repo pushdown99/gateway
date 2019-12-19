@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /var/www/html/DEBIAN/gateway
+CMAKE_SOURCE_DIR = /var/www/html/SOURCES/gateway
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /var/www/html/DEBIAN/gateway/build
+CMAKE_BINARY_DIR = /var/www/html/SOURCES/gateway/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/CMakeFiles /var/www/html/DEBIAN/gateway/build/kaa/CMakeFiles/progress.marks
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/DEBIAN/gateway/build/CMakeFiles 0
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/CMakeFiles /var/www/html/SOURCES/gateway/build/kaa/CMakeFiles/progress.marks
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/SOURCES/gateway/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/clean
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/preinstall
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/preinstall
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kaa/CMakeFiles/extension_profile.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_profile.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_profile.dir/rule
 .PHONY : kaa/CMakeFiles/extension_profile.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ extension_profile: kaa/CMakeFiles/extension_profile.dir/rule
 
 # fast build rule for target.
 extension_profile/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/build
 .PHONY : extension_profile/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/extension_user.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_user.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_user.dir/rule
 .PHONY : kaa/CMakeFiles/extension_user.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ extension_user: kaa/CMakeFiles/extension_user.dir/rule
 
 # fast build rule for target.
 extension_user/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/build
 .PHONY : extension_user/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/kaac.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/kaac.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/kaac.dir/rule
 .PHONY : kaa/CMakeFiles/kaac.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ kaac: kaa/CMakeFiles/kaac.dir/rule
 
 # fast build rule for target.
 kaac/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/build
 .PHONY : kaac/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/extension_configuration.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_configuration.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_configuration.dir/rule
 .PHONY : kaa/CMakeFiles/extension_configuration.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ extension_configuration: kaa/CMakeFiles/extension_configuration.dir/rule
 
 # fast build rule for target.
 extension_configuration/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/build
 .PHONY : extension_configuration/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/extension_logging.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_logging.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_logging.dir/rule
 .PHONY : kaa/CMakeFiles/extension_logging.dir/rule
 
 # Convenience name for target.
@@ -226,12 +226,12 @@ extension_logging: kaa/CMakeFiles/extension_logging.dir/rule
 
 # fast build rule for target.
 extension_logging/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/build
 .PHONY : extension_logging/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/extension_bootstrap.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_bootstrap.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_bootstrap.dir/rule
 .PHONY : kaa/CMakeFiles/extension_bootstrap.dir/rule
 
 # Convenience name for target.
@@ -241,12 +241,12 @@ extension_bootstrap: kaa/CMakeFiles/extension_bootstrap.dir/rule
 
 # fast build rule for target.
 extension_bootstrap/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/build
 .PHONY : extension_bootstrap/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/extension_event.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_event.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_event.dir/rule
 .PHONY : kaa/CMakeFiles/extension_event.dir/rule
 
 # Convenience name for target.
@@ -256,12 +256,12 @@ extension_event: kaa/CMakeFiles/extension_event.dir/rule
 
 # fast build rule for target.
 extension_event/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/build
 .PHONY : extension_event/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/extension_notification.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_notification.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/extension_notification.dir/rule
 .PHONY : kaa/CMakeFiles/extension_notification.dir/rule
 
 # Convenience name for target.
@@ -271,12 +271,12 @@ extension_notification: kaa/CMakeFiles/extension_notification.dir/rule
 
 # fast build rule for target.
 extension_notification/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/build
 .PHONY : extension_notification/fast
 
 # Convenience name for target.
 kaa/CMakeFiles/kaa_rsa_keygen.dir/rule:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/kaa_rsa_keygen.dir/rule
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f CMakeFiles/Makefile2 kaa/CMakeFiles/kaa_rsa_keygen.dir/rule
 .PHONY : kaa/CMakeFiles/kaa_rsa_keygen.dir/rule
 
 # Convenience name for target.
@@ -286,7 +286,7 @@ kaa_rsa_keygen: kaa/CMakeFiles/kaa_rsa_keygen.dir/rule
 
 # fast build rule for target.
 kaa_rsa_keygen/fast:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaa_rsa_keygen.dir/build.make kaa/CMakeFiles/kaa_rsa_keygen.dir/build
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaa_rsa_keygen.dir/build.make kaa/CMakeFiles/kaa_rsa_keygen.dir/build
 .PHONY : kaa_rsa_keygen/fast
 
 src/extensions/bootstrap/kaa_bootstrap_manager.o: src/extensions/bootstrap/kaa_bootstrap_manager.c.o
@@ -295,7 +295,7 @@ src/extensions/bootstrap/kaa_bootstrap_manager.o: src/extensions/bootstrap/kaa_b
 
 # target to build an object file
 src/extensions/bootstrap/kaa_bootstrap_manager.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/src/extensions/bootstrap/kaa_bootstrap_manager.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/src/extensions/bootstrap/kaa_bootstrap_manager.c.o
 .PHONY : src/extensions/bootstrap/kaa_bootstrap_manager.c.o
 
 src/extensions/bootstrap/kaa_bootstrap_manager.i: src/extensions/bootstrap/kaa_bootstrap_manager.c.i
@@ -304,7 +304,7 @@ src/extensions/bootstrap/kaa_bootstrap_manager.i: src/extensions/bootstrap/kaa_b
 
 # target to preprocess a source file
 src/extensions/bootstrap/kaa_bootstrap_manager.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/src/extensions/bootstrap/kaa_bootstrap_manager.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/src/extensions/bootstrap/kaa_bootstrap_manager.c.i
 .PHONY : src/extensions/bootstrap/kaa_bootstrap_manager.c.i
 
 src/extensions/bootstrap/kaa_bootstrap_manager.s: src/extensions/bootstrap/kaa_bootstrap_manager.c.s
@@ -313,7 +313,7 @@ src/extensions/bootstrap/kaa_bootstrap_manager.s: src/extensions/bootstrap/kaa_b
 
 # target to generate assembly for a file
 src/extensions/bootstrap/kaa_bootstrap_manager.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/src/extensions/bootstrap/kaa_bootstrap_manager.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_bootstrap.dir/build.make kaa/CMakeFiles/extension_bootstrap.dir/src/extensions/bootstrap/kaa_bootstrap_manager.c.s
 .PHONY : src/extensions/bootstrap/kaa_bootstrap_manager.c.s
 
 src/extensions/configuration/kaa_configuration_manager.o: src/extensions/configuration/kaa_configuration_manager.c.o
@@ -322,7 +322,7 @@ src/extensions/configuration/kaa_configuration_manager.o: src/extensions/configu
 
 # target to build an object file
 src/extensions/configuration/kaa_configuration_manager.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/src/extensions/configuration/kaa_configuration_manager.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/src/extensions/configuration/kaa_configuration_manager.c.o
 .PHONY : src/extensions/configuration/kaa_configuration_manager.c.o
 
 src/extensions/configuration/kaa_configuration_manager.i: src/extensions/configuration/kaa_configuration_manager.c.i
@@ -331,7 +331,7 @@ src/extensions/configuration/kaa_configuration_manager.i: src/extensions/configu
 
 # target to preprocess a source file
 src/extensions/configuration/kaa_configuration_manager.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/src/extensions/configuration/kaa_configuration_manager.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/src/extensions/configuration/kaa_configuration_manager.c.i
 .PHONY : src/extensions/configuration/kaa_configuration_manager.c.i
 
 src/extensions/configuration/kaa_configuration_manager.s: src/extensions/configuration/kaa_configuration_manager.c.s
@@ -340,7 +340,7 @@ src/extensions/configuration/kaa_configuration_manager.s: src/extensions/configu
 
 # target to generate assembly for a file
 src/extensions/configuration/kaa_configuration_manager.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/src/extensions/configuration/kaa_configuration_manager.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_configuration.dir/build.make kaa/CMakeFiles/extension_configuration.dir/src/extensions/configuration/kaa_configuration_manager.c.s
 .PHONY : src/extensions/configuration/kaa_configuration_manager.c.s
 
 src/extensions/event/kaa_event.o: src/extensions/event/kaa_event.c.o
@@ -349,7 +349,7 @@ src/extensions/event/kaa_event.o: src/extensions/event/kaa_event.c.o
 
 # target to build an object file
 src/extensions/event/kaa_event.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.o
 .PHONY : src/extensions/event/kaa_event.c.o
 
 src/extensions/event/kaa_event.i: src/extensions/event/kaa_event.c.i
@@ -358,7 +358,7 @@ src/extensions/event/kaa_event.i: src/extensions/event/kaa_event.c.i
 
 # target to preprocess a source file
 src/extensions/event/kaa_event.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.i
 .PHONY : src/extensions/event/kaa_event.c.i
 
 src/extensions/event/kaa_event.s: src/extensions/event/kaa_event.c.s
@@ -367,7 +367,7 @@ src/extensions/event/kaa_event.s: src/extensions/event/kaa_event.c.s
 
 # target to generate assembly for a file
 src/extensions/event/kaa_event.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_event.dir/build.make kaa/CMakeFiles/extension_event.dir/src/extensions/event/kaa_event.c.s
 .PHONY : src/extensions/event/kaa_event.c.s
 
 src/extensions/logging/kaa_logging.o: src/extensions/logging/kaa_logging.c.o
@@ -376,7 +376,7 @@ src/extensions/logging/kaa_logging.o: src/extensions/logging/kaa_logging.c.o
 
 # target to build an object file
 src/extensions/logging/kaa_logging.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/src/extensions/logging/kaa_logging.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/src/extensions/logging/kaa_logging.c.o
 .PHONY : src/extensions/logging/kaa_logging.c.o
 
 src/extensions/logging/kaa_logging.i: src/extensions/logging/kaa_logging.c.i
@@ -385,7 +385,7 @@ src/extensions/logging/kaa_logging.i: src/extensions/logging/kaa_logging.c.i
 
 # target to preprocess a source file
 src/extensions/logging/kaa_logging.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/src/extensions/logging/kaa_logging.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/src/extensions/logging/kaa_logging.c.i
 .PHONY : src/extensions/logging/kaa_logging.c.i
 
 src/extensions/logging/kaa_logging.s: src/extensions/logging/kaa_logging.c.s
@@ -394,7 +394,7 @@ src/extensions/logging/kaa_logging.s: src/extensions/logging/kaa_logging.c.s
 
 # target to generate assembly for a file
 src/extensions/logging/kaa_logging.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/src/extensions/logging/kaa_logging.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_logging.dir/build.make kaa/CMakeFiles/extension_logging.dir/src/extensions/logging/kaa_logging.c.s
 .PHONY : src/extensions/logging/kaa_logging.c.s
 
 src/extensions/notification/kaa_notification_manager.o: src/extensions/notification/kaa_notification_manager.c.o
@@ -403,7 +403,7 @@ src/extensions/notification/kaa_notification_manager.o: src/extensions/notificat
 
 # target to build an object file
 src/extensions/notification/kaa_notification_manager.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/src/extensions/notification/kaa_notification_manager.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/src/extensions/notification/kaa_notification_manager.c.o
 .PHONY : src/extensions/notification/kaa_notification_manager.c.o
 
 src/extensions/notification/kaa_notification_manager.i: src/extensions/notification/kaa_notification_manager.c.i
@@ -412,7 +412,7 @@ src/extensions/notification/kaa_notification_manager.i: src/extensions/notificat
 
 # target to preprocess a source file
 src/extensions/notification/kaa_notification_manager.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/src/extensions/notification/kaa_notification_manager.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/src/extensions/notification/kaa_notification_manager.c.i
 .PHONY : src/extensions/notification/kaa_notification_manager.c.i
 
 src/extensions/notification/kaa_notification_manager.s: src/extensions/notification/kaa_notification_manager.c.s
@@ -421,7 +421,7 @@ src/extensions/notification/kaa_notification_manager.s: src/extensions/notificat
 
 # target to generate assembly for a file
 src/extensions/notification/kaa_notification_manager.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/src/extensions/notification/kaa_notification_manager.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_notification.dir/build.make kaa/CMakeFiles/extension_notification.dir/src/extensions/notification/kaa_notification_manager.c.s
 .PHONY : src/extensions/notification/kaa_notification_manager.c.s
 
 src/extensions/profile/kaa_profile.o: src/extensions/profile/kaa_profile.c.o
@@ -430,7 +430,7 @@ src/extensions/profile/kaa_profile.o: src/extensions/profile/kaa_profile.c.o
 
 # target to build an object file
 src/extensions/profile/kaa_profile.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/src/extensions/profile/kaa_profile.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/src/extensions/profile/kaa_profile.c.o
 .PHONY : src/extensions/profile/kaa_profile.c.o
 
 src/extensions/profile/kaa_profile.i: src/extensions/profile/kaa_profile.c.i
@@ -439,7 +439,7 @@ src/extensions/profile/kaa_profile.i: src/extensions/profile/kaa_profile.c.i
 
 # target to preprocess a source file
 src/extensions/profile/kaa_profile.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/src/extensions/profile/kaa_profile.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/src/extensions/profile/kaa_profile.c.i
 .PHONY : src/extensions/profile/kaa_profile.c.i
 
 src/extensions/profile/kaa_profile.s: src/extensions/profile/kaa_profile.c.s
@@ -448,7 +448,7 @@ src/extensions/profile/kaa_profile.s: src/extensions/profile/kaa_profile.c.s
 
 # target to generate assembly for a file
 src/extensions/profile/kaa_profile.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/src/extensions/profile/kaa_profile.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_profile.dir/build.make kaa/CMakeFiles/extension_profile.dir/src/extensions/profile/kaa_profile.c.s
 .PHONY : src/extensions/profile/kaa_profile.c.s
 
 src/extensions/user/kaa_user.o: src/extensions/user/kaa_user.c.o
@@ -457,7 +457,7 @@ src/extensions/user/kaa_user.o: src/extensions/user/kaa_user.c.o
 
 # target to build an object file
 src/extensions/user/kaa_user.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/src/extensions/user/kaa_user.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/src/extensions/user/kaa_user.c.o
 .PHONY : src/extensions/user/kaa_user.c.o
 
 src/extensions/user/kaa_user.i: src/extensions/user/kaa_user.c.i
@@ -466,7 +466,7 @@ src/extensions/user/kaa_user.i: src/extensions/user/kaa_user.c.i
 
 # target to preprocess a source file
 src/extensions/user/kaa_user.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/src/extensions/user/kaa_user.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/src/extensions/user/kaa_user.c.i
 .PHONY : src/extensions/user/kaa_user.c.i
 
 src/extensions/user/kaa_user.s: src/extensions/user/kaa_user.c.s
@@ -475,7 +475,7 @@ src/extensions/user/kaa_user.s: src/extensions/user/kaa_user.c.s
 
 # target to generate assembly for a file
 src/extensions/user/kaa_user.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/src/extensions/user/kaa_user.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/extension_user.dir/build.make kaa/CMakeFiles/extension_user.dir/src/extensions/user/kaa_user.c.s
 .PHONY : src/extensions/user/kaa_user.c.s
 
 src/kaa/avro_src/encoding_binary.o: src/kaa/avro_src/encoding_binary.c.o
@@ -484,7 +484,7 @@ src/kaa/avro_src/encoding_binary.o: src/kaa/avro_src/encoding_binary.c.o
 
 # target to build an object file
 src/kaa/avro_src/encoding_binary.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.o
 .PHONY : src/kaa/avro_src/encoding_binary.c.o
 
 src/kaa/avro_src/encoding_binary.i: src/kaa/avro_src/encoding_binary.c.i
@@ -493,7 +493,7 @@ src/kaa/avro_src/encoding_binary.i: src/kaa/avro_src/encoding_binary.c.i
 
 # target to preprocess a source file
 src/kaa/avro_src/encoding_binary.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.i
 .PHONY : src/kaa/avro_src/encoding_binary.c.i
 
 src/kaa/avro_src/encoding_binary.s: src/kaa/avro_src/encoding_binary.c.s
@@ -502,7 +502,7 @@ src/kaa/avro_src/encoding_binary.s: src/kaa/avro_src/encoding_binary.c.s
 
 # target to generate assembly for a file
 src/kaa/avro_src/encoding_binary.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/encoding_binary.c.s
 .PHONY : src/kaa/avro_src/encoding_binary.c.s
 
 src/kaa/avro_src/io.o: src/kaa/avro_src/io.c.o
@@ -511,7 +511,7 @@ src/kaa/avro_src/io.o: src/kaa/avro_src/io.c.o
 
 # target to build an object file
 src/kaa/avro_src/io.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.o
 .PHONY : src/kaa/avro_src/io.c.o
 
 src/kaa/avro_src/io.i: src/kaa/avro_src/io.c.i
@@ -520,7 +520,7 @@ src/kaa/avro_src/io.i: src/kaa/avro_src/io.c.i
 
 # target to preprocess a source file
 src/kaa/avro_src/io.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.i
 .PHONY : src/kaa/avro_src/io.c.i
 
 src/kaa/avro_src/io.s: src/kaa/avro_src/io.c.s
@@ -529,7 +529,7 @@ src/kaa/avro_src/io.s: src/kaa/avro_src/io.c.s
 
 # target to generate assembly for a file
 src/kaa/avro_src/io.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/avro_src/io.c.s
 .PHONY : src/kaa/avro_src/io.c.s
 
 src/kaa/collections/kaa_list.o: src/kaa/collections/kaa_list.c.o
@@ -538,7 +538,7 @@ src/kaa/collections/kaa_list.o: src/kaa/collections/kaa_list.c.o
 
 # target to build an object file
 src/kaa/collections/kaa_list.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.o
 .PHONY : src/kaa/collections/kaa_list.c.o
 
 src/kaa/collections/kaa_list.i: src/kaa/collections/kaa_list.c.i
@@ -547,7 +547,7 @@ src/kaa/collections/kaa_list.i: src/kaa/collections/kaa_list.c.i
 
 # target to preprocess a source file
 src/kaa/collections/kaa_list.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.i
 .PHONY : src/kaa/collections/kaa_list.c.i
 
 src/kaa/collections/kaa_list.s: src/kaa/collections/kaa_list.c.s
@@ -556,7 +556,7 @@ src/kaa/collections/kaa_list.s: src/kaa/collections/kaa_list.c.s
 
 # target to generate assembly for a file
 src/kaa/collections/kaa_list.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/collections/kaa_list.c.s
 .PHONY : src/kaa/collections/kaa_list.c.s
 
 src/kaa/gen/kaa_configuration_gen.o: src/kaa/gen/kaa_configuration_gen.c.o
@@ -565,7 +565,7 @@ src/kaa/gen/kaa_configuration_gen.o: src/kaa/gen/kaa_configuration_gen.c.o
 
 # target to build an object file
 src/kaa/gen/kaa_configuration_gen.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.o
 .PHONY : src/kaa/gen/kaa_configuration_gen.c.o
 
 src/kaa/gen/kaa_configuration_gen.i: src/kaa/gen/kaa_configuration_gen.c.i
@@ -574,7 +574,7 @@ src/kaa/gen/kaa_configuration_gen.i: src/kaa/gen/kaa_configuration_gen.c.i
 
 # target to preprocess a source file
 src/kaa/gen/kaa_configuration_gen.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.i
 .PHONY : src/kaa/gen/kaa_configuration_gen.c.i
 
 src/kaa/gen/kaa_configuration_gen.s: src/kaa/gen/kaa_configuration_gen.c.s
@@ -583,7 +583,7 @@ src/kaa/gen/kaa_configuration_gen.s: src/kaa/gen/kaa_configuration_gen.c.s
 
 # target to generate assembly for a file
 src/kaa/gen/kaa_configuration_gen.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_configuration_gen.c.s
 .PHONY : src/kaa/gen/kaa_configuration_gen.c.s
 
 src/kaa/gen/kaa_logging_gen.o: src/kaa/gen/kaa_logging_gen.c.o
@@ -592,7 +592,7 @@ src/kaa/gen/kaa_logging_gen.o: src/kaa/gen/kaa_logging_gen.c.o
 
 # target to build an object file
 src/kaa/gen/kaa_logging_gen.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.o
 .PHONY : src/kaa/gen/kaa_logging_gen.c.o
 
 src/kaa/gen/kaa_logging_gen.i: src/kaa/gen/kaa_logging_gen.c.i
@@ -601,7 +601,7 @@ src/kaa/gen/kaa_logging_gen.i: src/kaa/gen/kaa_logging_gen.c.i
 
 # target to preprocess a source file
 src/kaa/gen/kaa_logging_gen.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.i
 .PHONY : src/kaa/gen/kaa_logging_gen.c.i
 
 src/kaa/gen/kaa_logging_gen.s: src/kaa/gen/kaa_logging_gen.c.s
@@ -610,7 +610,7 @@ src/kaa/gen/kaa_logging_gen.s: src/kaa/gen/kaa_logging_gen.c.s
 
 # target to generate assembly for a file
 src/kaa/gen/kaa_logging_gen.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_logging_gen.c.s
 .PHONY : src/kaa/gen/kaa_logging_gen.c.s
 
 src/kaa/gen/kaa_notification_gen.o: src/kaa/gen/kaa_notification_gen.c.o
@@ -619,7 +619,7 @@ src/kaa/gen/kaa_notification_gen.o: src/kaa/gen/kaa_notification_gen.c.o
 
 # target to build an object file
 src/kaa/gen/kaa_notification_gen.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.o
 .PHONY : src/kaa/gen/kaa_notification_gen.c.o
 
 src/kaa/gen/kaa_notification_gen.i: src/kaa/gen/kaa_notification_gen.c.i
@@ -628,7 +628,7 @@ src/kaa/gen/kaa_notification_gen.i: src/kaa/gen/kaa_notification_gen.c.i
 
 # target to preprocess a source file
 src/kaa/gen/kaa_notification_gen.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.i
 .PHONY : src/kaa/gen/kaa_notification_gen.c.i
 
 src/kaa/gen/kaa_notification_gen.s: src/kaa/gen/kaa_notification_gen.c.s
@@ -637,7 +637,7 @@ src/kaa/gen/kaa_notification_gen.s: src/kaa/gen/kaa_notification_gen.c.s
 
 # target to generate assembly for a file
 src/kaa/gen/kaa_notification_gen.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_notification_gen.c.s
 .PHONY : src/kaa/gen/kaa_notification_gen.c.s
 
 src/kaa/gen/kaa_profile_gen.o: src/kaa/gen/kaa_profile_gen.c.o
@@ -646,7 +646,7 @@ src/kaa/gen/kaa_profile_gen.o: src/kaa/gen/kaa_profile_gen.c.o
 
 # target to build an object file
 src/kaa/gen/kaa_profile_gen.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.o
 .PHONY : src/kaa/gen/kaa_profile_gen.c.o
 
 src/kaa/gen/kaa_profile_gen.i: src/kaa/gen/kaa_profile_gen.c.i
@@ -655,7 +655,7 @@ src/kaa/gen/kaa_profile_gen.i: src/kaa/gen/kaa_profile_gen.c.i
 
 # target to preprocess a source file
 src/kaa/gen/kaa_profile_gen.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.i
 .PHONY : src/kaa/gen/kaa_profile_gen.c.i
 
 src/kaa/gen/kaa_profile_gen.s: src/kaa/gen/kaa_profile_gen.c.s
@@ -664,7 +664,7 @@ src/kaa/gen/kaa_profile_gen.s: src/kaa/gen/kaa_profile_gen.c.s
 
 # target to generate assembly for a file
 src/kaa/gen/kaa_profile_gen.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/gen/kaa_profile_gen.c.s
 .PHONY : src/kaa/gen/kaa_profile_gen.c.s
 
 src/kaa/kaa.o: src/kaa/kaa.c.o
@@ -673,7 +673,7 @@ src/kaa/kaa.o: src/kaa/kaa.c.o
 
 # target to build an object file
 src/kaa/kaa.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.o
 .PHONY : src/kaa/kaa.c.o
 
 src/kaa/kaa.i: src/kaa/kaa.c.i
@@ -682,7 +682,7 @@ src/kaa/kaa.i: src/kaa/kaa.c.i
 
 # target to preprocess a source file
 src/kaa/kaa.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.i
 .PHONY : src/kaa/kaa.c.i
 
 src/kaa/kaa.s: src/kaa/kaa.c.s
@@ -691,7 +691,7 @@ src/kaa/kaa.s: src/kaa/kaa.c.s
 
 # target to generate assembly for a file
 src/kaa/kaa.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa.c.s
 .PHONY : src/kaa/kaa.c.s
 
 src/kaa/kaa_channel_manager.o: src/kaa/kaa_channel_manager.c.o
@@ -700,7 +700,7 @@ src/kaa/kaa_channel_manager.o: src/kaa/kaa_channel_manager.c.o
 
 # target to build an object file
 src/kaa/kaa_channel_manager.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.o
 .PHONY : src/kaa/kaa_channel_manager.c.o
 
 src/kaa/kaa_channel_manager.i: src/kaa/kaa_channel_manager.c.i
@@ -709,7 +709,7 @@ src/kaa/kaa_channel_manager.i: src/kaa/kaa_channel_manager.c.i
 
 # target to preprocess a source file
 src/kaa/kaa_channel_manager.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.i
 .PHONY : src/kaa/kaa_channel_manager.c.i
 
 src/kaa/kaa_channel_manager.s: src/kaa/kaa_channel_manager.c.s
@@ -718,7 +718,7 @@ src/kaa/kaa_channel_manager.s: src/kaa/kaa_channel_manager.c.s
 
 # target to generate assembly for a file
 src/kaa/kaa_channel_manager.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_channel_manager.c.s
 .PHONY : src/kaa/kaa_channel_manager.c.s
 
 src/kaa/kaa_common_schema.o: src/kaa/kaa_common_schema.c.o
@@ -727,7 +727,7 @@ src/kaa/kaa_common_schema.o: src/kaa/kaa_common_schema.c.o
 
 # target to build an object file
 src/kaa/kaa_common_schema.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.o
 .PHONY : src/kaa/kaa_common_schema.c.o
 
 src/kaa/kaa_common_schema.i: src/kaa/kaa_common_schema.c.i
@@ -736,7 +736,7 @@ src/kaa/kaa_common_schema.i: src/kaa/kaa_common_schema.c.i
 
 # target to preprocess a source file
 src/kaa/kaa_common_schema.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.i
 .PHONY : src/kaa/kaa_common_schema.c.i
 
 src/kaa/kaa_common_schema.s: src/kaa/kaa_common_schema.c.s
@@ -745,7 +745,7 @@ src/kaa/kaa_common_schema.s: src/kaa/kaa_common_schema.c.s
 
 # target to generate assembly for a file
 src/kaa/kaa_common_schema.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_common_schema.c.s
 .PHONY : src/kaa/kaa_common_schema.c.s
 
 src/kaa/kaa_extension.o: src/kaa/kaa_extension.c.o
@@ -754,7 +754,7 @@ src/kaa/kaa_extension.o: src/kaa/kaa_extension.c.o
 
 # target to build an object file
 src/kaa/kaa_extension.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.o
 .PHONY : src/kaa/kaa_extension.c.o
 
 src/kaa/kaa_extension.i: src/kaa/kaa_extension.c.i
@@ -763,7 +763,7 @@ src/kaa/kaa_extension.i: src/kaa/kaa_extension.c.i
 
 # target to preprocess a source file
 src/kaa/kaa_extension.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.i
 .PHONY : src/kaa/kaa_extension.c.i
 
 src/kaa/kaa_extension.s: src/kaa/kaa_extension.c.s
@@ -772,7 +772,7 @@ src/kaa/kaa_extension.s: src/kaa/kaa_extension.c.s
 
 # target to generate assembly for a file
 src/kaa/kaa_extension.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_extension.c.s
 .PHONY : src/kaa/kaa_extension.c.s
 
 src/kaa/kaa_platform_protocol.o: src/kaa/kaa_platform_protocol.c.o
@@ -781,7 +781,7 @@ src/kaa/kaa_platform_protocol.o: src/kaa/kaa_platform_protocol.c.o
 
 # target to build an object file
 src/kaa/kaa_platform_protocol.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.o
 .PHONY : src/kaa/kaa_platform_protocol.c.o
 
 src/kaa/kaa_platform_protocol.i: src/kaa/kaa_platform_protocol.c.i
@@ -790,7 +790,7 @@ src/kaa/kaa_platform_protocol.i: src/kaa/kaa_platform_protocol.c.i
 
 # target to preprocess a source file
 src/kaa/kaa_platform_protocol.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.i
 .PHONY : src/kaa/kaa_platform_protocol.c.i
 
 src/kaa/kaa_platform_protocol.s: src/kaa/kaa_platform_protocol.c.s
@@ -799,7 +799,7 @@ src/kaa/kaa_platform_protocol.s: src/kaa/kaa_platform_protocol.c.s
 
 # target to generate assembly for a file
 src/kaa/kaa_platform_protocol.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_protocol.c.s
 .PHONY : src/kaa/kaa_platform_protocol.c.s
 
 src/kaa/kaa_platform_utils.o: src/kaa/kaa_platform_utils.c.o
@@ -808,7 +808,7 @@ src/kaa/kaa_platform_utils.o: src/kaa/kaa_platform_utils.c.o
 
 # target to build an object file
 src/kaa/kaa_platform_utils.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.o
 .PHONY : src/kaa/kaa_platform_utils.c.o
 
 src/kaa/kaa_platform_utils.i: src/kaa/kaa_platform_utils.c.i
@@ -817,7 +817,7 @@ src/kaa/kaa_platform_utils.i: src/kaa/kaa_platform_utils.c.i
 
 # target to preprocess a source file
 src/kaa/kaa_platform_utils.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.i
 .PHONY : src/kaa/kaa_platform_utils.c.i
 
 src/kaa/kaa_platform_utils.s: src/kaa/kaa_platform_utils.c.s
@@ -826,7 +826,7 @@ src/kaa/kaa_platform_utils.s: src/kaa/kaa_platform_utils.c.s
 
 # target to generate assembly for a file
 src/kaa/kaa_platform_utils.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_platform_utils.c.s
 .PHONY : src/kaa/kaa_platform_utils.c.s
 
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.o: src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o
@@ -835,7 +835,7 @@ src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.o: src/kaa/kaa_protocols/kaa_tcp/kaa
 
 # target to build an object file
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o
 .PHONY : src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.o
 
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.i: src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i
@@ -844,7 +844,7 @@ src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.i: src/kaa/kaa_protocols/kaa_tcp/kaa
 
 # target to preprocess a source file
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i
 .PHONY : src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.i
 
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.s: src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s
@@ -853,7 +853,7 @@ src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.s: src/kaa/kaa_protocols/kaa_tcp/kaa
 
 # target to generate assembly for a file
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s
 .PHONY : src/kaa/kaa_protocols/kaa_tcp/kaatcp_parser.c.s
 
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.o: src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o
@@ -862,7 +862,7 @@ src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.o: src/kaa/kaa_protocols/kaa_tcp/ka
 
 # target to build an object file
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o
 .PHONY : src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.o
 
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.i: src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i
@@ -871,7 +871,7 @@ src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.i: src/kaa/kaa_protocols/kaa_tcp/ka
 
 # target to preprocess a source file
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i
 .PHONY : src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.i
 
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.s: src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s
@@ -880,7 +880,7 @@ src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.s: src/kaa/kaa_protocols/kaa_tcp/ka
 
 # target to generate assembly for a file
 src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s
 .PHONY : src/kaa/kaa_protocols/kaa_tcp/kaatcp_request.c.s
 
 src/kaa/kaa_status.o: src/kaa/kaa_status.c.o
@@ -889,7 +889,7 @@ src/kaa/kaa_status.o: src/kaa/kaa_status.c.o
 
 # target to build an object file
 src/kaa/kaa_status.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.o
 .PHONY : src/kaa/kaa_status.c.o
 
 src/kaa/kaa_status.i: src/kaa/kaa_status.c.i
@@ -898,7 +898,7 @@ src/kaa/kaa_status.i: src/kaa/kaa_status.c.i
 
 # target to preprocess a source file
 src/kaa/kaa_status.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.i
 .PHONY : src/kaa/kaa_status.c.i
 
 src/kaa/kaa_status.s: src/kaa/kaa_status.c.s
@@ -907,7 +907,7 @@ src/kaa/kaa_status.s: src/kaa/kaa_status.c.s
 
 # target to generate assembly for a file
 src/kaa/kaa_status.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/kaa_status.c.s
 .PHONY : src/kaa/kaa_status.c.s
 
 src/kaa/platform-impl/common/ext_log_storage_memory.o: src/kaa/platform-impl/common/ext_log_storage_memory.c.o
@@ -916,7 +916,7 @@ src/kaa/platform-impl/common/ext_log_storage_memory.o: src/kaa/platform-impl/com
 
 # target to build an object file
 src/kaa/platform-impl/common/ext_log_storage_memory.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.o
 .PHONY : src/kaa/platform-impl/common/ext_log_storage_memory.c.o
 
 src/kaa/platform-impl/common/ext_log_storage_memory.i: src/kaa/platform-impl/common/ext_log_storage_memory.c.i
@@ -925,7 +925,7 @@ src/kaa/platform-impl/common/ext_log_storage_memory.i: src/kaa/platform-impl/com
 
 # target to preprocess a source file
 src/kaa/platform-impl/common/ext_log_storage_memory.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.i
 .PHONY : src/kaa/platform-impl/common/ext_log_storage_memory.c.i
 
 src/kaa/platform-impl/common/ext_log_storage_memory.s: src/kaa/platform-impl/common/ext_log_storage_memory.c.s
@@ -934,7 +934,7 @@ src/kaa/platform-impl/common/ext_log_storage_memory.s: src/kaa/platform-impl/com
 
 # target to generate assembly for a file
 src/kaa/platform-impl/common/ext_log_storage_memory.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_storage_memory.c.s
 .PHONY : src/kaa/platform-impl/common/ext_log_storage_memory.c.s
 
 src/kaa/platform-impl/common/ext_log_upload_strategies.o: src/kaa/platform-impl/common/ext_log_upload_strategies.c.o
@@ -943,7 +943,7 @@ src/kaa/platform-impl/common/ext_log_upload_strategies.o: src/kaa/platform-impl/
 
 # target to build an object file
 src/kaa/platform-impl/common/ext_log_upload_strategies.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.o
 .PHONY : src/kaa/platform-impl/common/ext_log_upload_strategies.c.o
 
 src/kaa/platform-impl/common/ext_log_upload_strategies.i: src/kaa/platform-impl/common/ext_log_upload_strategies.c.i
@@ -952,7 +952,7 @@ src/kaa/platform-impl/common/ext_log_upload_strategies.i: src/kaa/platform-impl/
 
 # target to preprocess a source file
 src/kaa/platform-impl/common/ext_log_upload_strategies.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.i
 .PHONY : src/kaa/platform-impl/common/ext_log_upload_strategies.c.i
 
 src/kaa/platform-impl/common/ext_log_upload_strategies.s: src/kaa/platform-impl/common/ext_log_upload_strategies.c.s
@@ -961,7 +961,7 @@ src/kaa/platform-impl/common/ext_log_upload_strategies.s: src/kaa/platform-impl/
 
 # target to generate assembly for a file
 src/kaa/platform-impl/common/ext_log_upload_strategies.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/ext_log_upload_strategies.c.s
 .PHONY : src/kaa/platform-impl/common/ext_log_upload_strategies.c.s
 
 src/kaa/platform-impl/common/kaa_failover_strategy.o: src/kaa/platform-impl/common/kaa_failover_strategy.c.o
@@ -970,7 +970,7 @@ src/kaa/platform-impl/common/kaa_failover_strategy.o: src/kaa/platform-impl/comm
 
 # target to build an object file
 src/kaa/platform-impl/common/kaa_failover_strategy.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.o
 .PHONY : src/kaa/platform-impl/common/kaa_failover_strategy.c.o
 
 src/kaa/platform-impl/common/kaa_failover_strategy.i: src/kaa/platform-impl/common/kaa_failover_strategy.c.i
@@ -979,7 +979,7 @@ src/kaa/platform-impl/common/kaa_failover_strategy.i: src/kaa/platform-impl/comm
 
 # target to preprocess a source file
 src/kaa/platform-impl/common/kaa_failover_strategy.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.i
 .PHONY : src/kaa/platform-impl/common/kaa_failover_strategy.c.i
 
 src/kaa/platform-impl/common/kaa_failover_strategy.s: src/kaa/platform-impl/common/kaa_failover_strategy.c.s
@@ -988,7 +988,7 @@ src/kaa/platform-impl/common/kaa_failover_strategy.s: src/kaa/platform-impl/comm
 
 # target to generate assembly for a file
 src/kaa/platform-impl/common/kaa_failover_strategy.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_failover_strategy.c.s
 .PHONY : src/kaa/platform-impl/common/kaa_failover_strategy.c.s
 
 src/kaa/platform-impl/common/kaa_htonll.o: src/kaa/platform-impl/common/kaa_htonll.c.o
@@ -997,7 +997,7 @@ src/kaa/platform-impl/common/kaa_htonll.o: src/kaa/platform-impl/common/kaa_hton
 
 # target to build an object file
 src/kaa/platform-impl/common/kaa_htonll.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.o
 .PHONY : src/kaa/platform-impl/common/kaa_htonll.c.o
 
 src/kaa/platform-impl/common/kaa_htonll.i: src/kaa/platform-impl/common/kaa_htonll.c.i
@@ -1006,7 +1006,7 @@ src/kaa/platform-impl/common/kaa_htonll.i: src/kaa/platform-impl/common/kaa_hton
 
 # target to preprocess a source file
 src/kaa/platform-impl/common/kaa_htonll.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.i
 .PHONY : src/kaa/platform-impl/common/kaa_htonll.c.i
 
 src/kaa/platform-impl/common/kaa_htonll.s: src/kaa/platform-impl/common/kaa_htonll.c.s
@@ -1015,7 +1015,7 @@ src/kaa/platform-impl/common/kaa_htonll.s: src/kaa/platform-impl/common/kaa_hton
 
 # target to generate assembly for a file
 src/kaa/platform-impl/common/kaa_htonll.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_htonll.c.s
 .PHONY : src/kaa/platform-impl/common/kaa_htonll.c.s
 
 src/kaa/platform-impl/common/kaa_tcp_channel.o: src/kaa/platform-impl/common/kaa_tcp_channel.c.o
@@ -1024,7 +1024,7 @@ src/kaa/platform-impl/common/kaa_tcp_channel.o: src/kaa/platform-impl/common/kaa
 
 # target to build an object file
 src/kaa/platform-impl/common/kaa_tcp_channel.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.o
 .PHONY : src/kaa/platform-impl/common/kaa_tcp_channel.c.o
 
 src/kaa/platform-impl/common/kaa_tcp_channel.i: src/kaa/platform-impl/common/kaa_tcp_channel.c.i
@@ -1033,7 +1033,7 @@ src/kaa/platform-impl/common/kaa_tcp_channel.i: src/kaa/platform-impl/common/kaa
 
 # target to preprocess a source file
 src/kaa/platform-impl/common/kaa_tcp_channel.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.i
 .PHONY : src/kaa/platform-impl/common/kaa_tcp_channel.c.i
 
 src/kaa/platform-impl/common/kaa_tcp_channel.s: src/kaa/platform-impl/common/kaa_tcp_channel.c.s
@@ -1042,7 +1042,7 @@ src/kaa/platform-impl/common/kaa_tcp_channel.s: src/kaa/platform-impl/common/kaa
 
 # target to generate assembly for a file
 src/kaa/platform-impl/common/kaa_tcp_channel.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/kaa_tcp_channel.c.s
 .PHONY : src/kaa/platform-impl/common/kaa_tcp_channel.c.s
 
 src/kaa/platform-impl/common/key_utils.o: src/kaa/platform-impl/common/key_utils.c.o
@@ -1051,7 +1051,7 @@ src/kaa/platform-impl/common/key_utils.o: src/kaa/platform-impl/common/key_utils
 
 # target to build an object file
 src/kaa/platform-impl/common/key_utils.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.o
 .PHONY : src/kaa/platform-impl/common/key_utils.c.o
 
 src/kaa/platform-impl/common/key_utils.i: src/kaa/platform-impl/common/key_utils.c.i
@@ -1060,7 +1060,7 @@ src/kaa/platform-impl/common/key_utils.i: src/kaa/platform-impl/common/key_utils
 
 # target to preprocess a source file
 src/kaa/platform-impl/common/key_utils.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.i
 .PHONY : src/kaa/platform-impl/common/key_utils.c.i
 
 src/kaa/platform-impl/common/key_utils.s: src/kaa/platform-impl/common/key_utils.c.s
@@ -1069,7 +1069,7 @@ src/kaa/platform-impl/common/key_utils.s: src/kaa/platform-impl/common/key_utils
 
 # target to generate assembly for a file
 src/kaa/platform-impl/common/key_utils.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/key_utils.c.s
 .PHONY : src/kaa/platform-impl/common/key_utils.c.s
 
 src/kaa/platform-impl/common/sha.o: src/kaa/platform-impl/common/sha.c.o
@@ -1078,7 +1078,7 @@ src/kaa/platform-impl/common/sha.o: src/kaa/platform-impl/common/sha.c.o
 
 # target to build an object file
 src/kaa/platform-impl/common/sha.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.o
 .PHONY : src/kaa/platform-impl/common/sha.c.o
 
 src/kaa/platform-impl/common/sha.i: src/kaa/platform-impl/common/sha.c.i
@@ -1087,7 +1087,7 @@ src/kaa/platform-impl/common/sha.i: src/kaa/platform-impl/common/sha.c.i
 
 # target to preprocess a source file
 src/kaa/platform-impl/common/sha.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.i
 .PHONY : src/kaa/platform-impl/common/sha.c.i
 
 src/kaa/platform-impl/common/sha.s: src/kaa/platform-impl/common/sha.c.s
@@ -1096,7 +1096,7 @@ src/kaa/platform-impl/common/sha.s: src/kaa/platform-impl/common/sha.c.s
 
 # target to generate assembly for a file
 src/kaa/platform-impl/common/sha.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/common/sha.c.s
 .PHONY : src/kaa/platform-impl/common/sha.c.s
 
 src/kaa/platform-impl/posix/configuration_persistence.o: src/kaa/platform-impl/posix/configuration_persistence.c.o
@@ -1105,7 +1105,7 @@ src/kaa/platform-impl/posix/configuration_persistence.o: src/kaa/platform-impl/p
 
 # target to build an object file
 src/kaa/platform-impl/posix/configuration_persistence.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.o
 .PHONY : src/kaa/platform-impl/posix/configuration_persistence.c.o
 
 src/kaa/platform-impl/posix/configuration_persistence.i: src/kaa/platform-impl/posix/configuration_persistence.c.i
@@ -1114,7 +1114,7 @@ src/kaa/platform-impl/posix/configuration_persistence.i: src/kaa/platform-impl/p
 
 # target to preprocess a source file
 src/kaa/platform-impl/posix/configuration_persistence.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.i
 .PHONY : src/kaa/platform-impl/posix/configuration_persistence.c.i
 
 src/kaa/platform-impl/posix/configuration_persistence.s: src/kaa/platform-impl/posix/configuration_persistence.c.s
@@ -1123,7 +1123,7 @@ src/kaa/platform-impl/posix/configuration_persistence.s: src/kaa/platform-impl/p
 
 # target to generate assembly for a file
 src/kaa/platform-impl/posix/configuration_persistence.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/configuration_persistence.c.s
 .PHONY : src/kaa/platform-impl/posix/configuration_persistence.c.s
 
 src/kaa/platform-impl/posix/file_utils.o: src/kaa/platform-impl/posix/file_utils.c.o
@@ -1132,7 +1132,7 @@ src/kaa/platform-impl/posix/file_utils.o: src/kaa/platform-impl/posix/file_utils
 
 # target to build an object file
 src/kaa/platform-impl/posix/file_utils.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.o
 .PHONY : src/kaa/platform-impl/posix/file_utils.c.o
 
 src/kaa/platform-impl/posix/file_utils.i: src/kaa/platform-impl/posix/file_utils.c.i
@@ -1141,7 +1141,7 @@ src/kaa/platform-impl/posix/file_utils.i: src/kaa/platform-impl/posix/file_utils
 
 # target to preprocess a source file
 src/kaa/platform-impl/posix/file_utils.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.i
 .PHONY : src/kaa/platform-impl/posix/file_utils.c.i
 
 src/kaa/platform-impl/posix/file_utils.s: src/kaa/platform-impl/posix/file_utils.c.s
@@ -1150,7 +1150,7 @@ src/kaa/platform-impl/posix/file_utils.s: src/kaa/platform-impl/posix/file_utils
 
 # target to generate assembly for a file
 src/kaa/platform-impl/posix/file_utils.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/file_utils.c.s
 .PHONY : src/kaa/platform-impl/posix/file_utils.c.s
 
 src/kaa/platform-impl/posix/kaa_client.o: src/kaa/platform-impl/posix/kaa_client.c.o
@@ -1159,7 +1159,7 @@ src/kaa/platform-impl/posix/kaa_client.o: src/kaa/platform-impl/posix/kaa_client
 
 # target to build an object file
 src/kaa/platform-impl/posix/kaa_client.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.o
 .PHONY : src/kaa/platform-impl/posix/kaa_client.c.o
 
 src/kaa/platform-impl/posix/kaa_client.i: src/kaa/platform-impl/posix/kaa_client.c.i
@@ -1168,7 +1168,7 @@ src/kaa/platform-impl/posix/kaa_client.i: src/kaa/platform-impl/posix/kaa_client
 
 # target to preprocess a source file
 src/kaa/platform-impl/posix/kaa_client.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.i
 .PHONY : src/kaa/platform-impl/posix/kaa_client.c.i
 
 src/kaa/platform-impl/posix/kaa_client.s: src/kaa/platform-impl/posix/kaa_client.c.s
@@ -1177,7 +1177,7 @@ src/kaa/platform-impl/posix/kaa_client.s: src/kaa/platform-impl/posix/kaa_client
 
 # target to generate assembly for a file
 src/kaa/platform-impl/posix/kaa_client.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/kaa_client.c.s
 .PHONY : src/kaa/platform-impl/posix/kaa_client.c.s
 
 src/kaa/platform-impl/posix/logger.o: src/kaa/platform-impl/posix/logger.c.o
@@ -1186,7 +1186,7 @@ src/kaa/platform-impl/posix/logger.o: src/kaa/platform-impl/posix/logger.c.o
 
 # target to build an object file
 src/kaa/platform-impl/posix/logger.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.o
 .PHONY : src/kaa/platform-impl/posix/logger.c.o
 
 src/kaa/platform-impl/posix/logger.i: src/kaa/platform-impl/posix/logger.c.i
@@ -1195,7 +1195,7 @@ src/kaa/platform-impl/posix/logger.i: src/kaa/platform-impl/posix/logger.c.i
 
 # target to preprocess a source file
 src/kaa/platform-impl/posix/logger.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.i
 .PHONY : src/kaa/platform-impl/posix/logger.c.i
 
 src/kaa/platform-impl/posix/logger.s: src/kaa/platform-impl/posix/logger.c.s
@@ -1204,7 +1204,7 @@ src/kaa/platform-impl/posix/logger.s: src/kaa/platform-impl/posix/logger.c.s
 
 # target to generate assembly for a file
 src/kaa/platform-impl/posix/logger.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/logger.c.s
 .PHONY : src/kaa/platform-impl/posix/logger.c.s
 
 src/kaa/platform-impl/posix/status.o: src/kaa/platform-impl/posix/status.c.o
@@ -1213,7 +1213,7 @@ src/kaa/platform-impl/posix/status.o: src/kaa/platform-impl/posix/status.c.o
 
 # target to build an object file
 src/kaa/platform-impl/posix/status.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.o
 .PHONY : src/kaa/platform-impl/posix/status.c.o
 
 src/kaa/platform-impl/posix/status.i: src/kaa/platform-impl/posix/status.c.i
@@ -1222,7 +1222,7 @@ src/kaa/platform-impl/posix/status.i: src/kaa/platform-impl/posix/status.c.i
 
 # target to preprocess a source file
 src/kaa/platform-impl/posix/status.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.i
 .PHONY : src/kaa/platform-impl/posix/status.c.i
 
 src/kaa/platform-impl/posix/status.s: src/kaa/platform-impl/posix/status.c.s
@@ -1231,7 +1231,7 @@ src/kaa/platform-impl/posix/status.s: src/kaa/platform-impl/posix/status.c.s
 
 # target to generate assembly for a file
 src/kaa/platform-impl/posix/status.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/status.c.s
 .PHONY : src/kaa/platform-impl/posix/status.c.s
 
 src/kaa/platform-impl/posix/tcp_utils.o: src/kaa/platform-impl/posix/tcp_utils.c.o
@@ -1240,7 +1240,7 @@ src/kaa/platform-impl/posix/tcp_utils.o: src/kaa/platform-impl/posix/tcp_utils.c
 
 # target to build an object file
 src/kaa/platform-impl/posix/tcp_utils.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.o
 .PHONY : src/kaa/platform-impl/posix/tcp_utils.c.o
 
 src/kaa/platform-impl/posix/tcp_utils.i: src/kaa/platform-impl/posix/tcp_utils.c.i
@@ -1249,7 +1249,7 @@ src/kaa/platform-impl/posix/tcp_utils.i: src/kaa/platform-impl/posix/tcp_utils.c
 
 # target to preprocess a source file
 src/kaa/platform-impl/posix/tcp_utils.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.i
 .PHONY : src/kaa/platform-impl/posix/tcp_utils.c.i
 
 src/kaa/platform-impl/posix/tcp_utils.s: src/kaa/platform-impl/posix/tcp_utils.c.s
@@ -1258,7 +1258,7 @@ src/kaa/platform-impl/posix/tcp_utils.s: src/kaa/platform-impl/posix/tcp_utils.c
 
 # target to generate assembly for a file
 src/kaa/platform-impl/posix/tcp_utils.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/platform-impl/posix/tcp_utils.c.s
 .PHONY : src/kaa/platform-impl/posix/tcp_utils.c.s
 
 src/kaa/utilities/kaa_aes_rsa.o: src/kaa/utilities/kaa_aes_rsa.c.o
@@ -1267,7 +1267,7 @@ src/kaa/utilities/kaa_aes_rsa.o: src/kaa/utilities/kaa_aes_rsa.c.o
 
 # target to build an object file
 src/kaa/utilities/kaa_aes_rsa.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.o
 .PHONY : src/kaa/utilities/kaa_aes_rsa.c.o
 
 src/kaa/utilities/kaa_aes_rsa.i: src/kaa/utilities/kaa_aes_rsa.c.i
@@ -1276,7 +1276,7 @@ src/kaa/utilities/kaa_aes_rsa.i: src/kaa/utilities/kaa_aes_rsa.c.i
 
 # target to preprocess a source file
 src/kaa/utilities/kaa_aes_rsa.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.i
 .PHONY : src/kaa/utilities/kaa_aes_rsa.c.i
 
 src/kaa/utilities/kaa_aes_rsa.s: src/kaa/utilities/kaa_aes_rsa.c.s
@@ -1285,7 +1285,7 @@ src/kaa/utilities/kaa_aes_rsa.s: src/kaa/utilities/kaa_aes_rsa.c.s
 
 # target to generate assembly for a file
 src/kaa/utilities/kaa_aes_rsa.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_aes_rsa.c.s
 .PHONY : src/kaa/utilities/kaa_aes_rsa.c.s
 
 src/kaa/utilities/kaa_buffer.o: src/kaa/utilities/kaa_buffer.c.o
@@ -1294,7 +1294,7 @@ src/kaa/utilities/kaa_buffer.o: src/kaa/utilities/kaa_buffer.c.o
 
 # target to build an object file
 src/kaa/utilities/kaa_buffer.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.o
 .PHONY : src/kaa/utilities/kaa_buffer.c.o
 
 src/kaa/utilities/kaa_buffer.i: src/kaa/utilities/kaa_buffer.c.i
@@ -1303,7 +1303,7 @@ src/kaa/utilities/kaa_buffer.i: src/kaa/utilities/kaa_buffer.c.i
 
 # target to preprocess a source file
 src/kaa/utilities/kaa_buffer.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.i
 .PHONY : src/kaa/utilities/kaa_buffer.c.i
 
 src/kaa/utilities/kaa_buffer.s: src/kaa/utilities/kaa_buffer.c.s
@@ -1312,7 +1312,7 @@ src/kaa/utilities/kaa_buffer.s: src/kaa/utilities/kaa_buffer.c.s
 
 # target to generate assembly for a file
 src/kaa/utilities/kaa_buffer.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_buffer.c.s
 .PHONY : src/kaa/utilities/kaa_buffer.c.s
 
 src/kaa/utilities/kaa_log.o: src/kaa/utilities/kaa_log.c.o
@@ -1321,7 +1321,7 @@ src/kaa/utilities/kaa_log.o: src/kaa/utilities/kaa_log.c.o
 
 # target to build an object file
 src/kaa/utilities/kaa_log.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.o
 .PHONY : src/kaa/utilities/kaa_log.c.o
 
 src/kaa/utilities/kaa_log.i: src/kaa/utilities/kaa_log.c.i
@@ -1330,7 +1330,7 @@ src/kaa/utilities/kaa_log.i: src/kaa/utilities/kaa_log.c.i
 
 # target to preprocess a source file
 src/kaa/utilities/kaa_log.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.i
 .PHONY : src/kaa/utilities/kaa_log.c.i
 
 src/kaa/utilities/kaa_log.s: src/kaa/utilities/kaa_log.c.s
@@ -1339,7 +1339,7 @@ src/kaa/utilities/kaa_log.s: src/kaa/utilities/kaa_log.c.s
 
 # target to generate assembly for a file
 src/kaa/utilities/kaa_log.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_log.c.s
 .PHONY : src/kaa/utilities/kaa_log.c.s
 
 src/kaa/utilities/kaa_mem.o: src/kaa/utilities/kaa_mem.c.o
@@ -1348,7 +1348,7 @@ src/kaa/utilities/kaa_mem.o: src/kaa/utilities/kaa_mem.c.o
 
 # target to build an object file
 src/kaa/utilities/kaa_mem.c.o:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.o
 .PHONY : src/kaa/utilities/kaa_mem.c.o
 
 src/kaa/utilities/kaa_mem.i: src/kaa/utilities/kaa_mem.c.i
@@ -1357,7 +1357,7 @@ src/kaa/utilities/kaa_mem.i: src/kaa/utilities/kaa_mem.c.i
 
 # target to preprocess a source file
 src/kaa/utilities/kaa_mem.c.i:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.i
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.i
 .PHONY : src/kaa/utilities/kaa_mem.c.i
 
 src/kaa/utilities/kaa_mem.s: src/kaa/utilities/kaa_mem.c.s
@@ -1366,7 +1366,7 @@ src/kaa/utilities/kaa_mem.s: src/kaa/utilities/kaa_mem.c.s
 
 # target to generate assembly for a file
 src/kaa/utilities/kaa_mem.c.s:
-	cd /var/www/html/DEBIAN/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.s
+	cd /var/www/html/SOURCES/gateway/build && $(MAKE) -f kaa/CMakeFiles/kaac.dir/build.make kaa/CMakeFiles/kaac.dir/src/kaa/utilities/kaa_mem.c.s
 .PHONY : src/kaa/utilities/kaa_mem.c.s
 
 # Help Target
@@ -1521,6 +1521,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /var/www/html/DEBIAN/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /var/www/html/SOURCES/gateway/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

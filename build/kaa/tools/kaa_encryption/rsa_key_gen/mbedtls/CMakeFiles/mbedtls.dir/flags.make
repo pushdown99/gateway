@@ -6,5 +6,5 @@ C_FLAGS =  -std=gnu99 -g -Wall -Wextra -std=c99 -Wall -Wextra -pedantic -D_GNU_S
 
 C_DEFINES = 
 
-C_INCLUDES = -isystem /var/www/html/DEBIAN/gateway/kaa/src/kaa/platform-impl/posix -I/var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls/mbedtls -I/var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls 
+C_INCLUDES = -isystem /var/www/html/SOURCES/gateway/kaa/src/kaa/platform-impl/posix -I/var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls/mbedtls -I/var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls 
 

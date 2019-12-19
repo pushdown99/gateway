@@ -1,4 +1,4 @@
-# Install script for directory: /var/www/html/DEBIAN/gateway/kaa/thirdparty/mbedtls
+# Install script for directory: /var/www/html/SOURCES/gateway/kaa/thirdparty/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

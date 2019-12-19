@@ -27,4 +27,4 @@ CMakeFiles/kaa-app.dir/main.c.o
  ../kaa/src/kaa/platform/kaa_client.h
  ../kaa/src/kaa/platform/kaa_client_properties.h
  ../kaa/src/kaa/utilities/kaa_log.h
- /var/www/html/DEBIAN/gateway/main.c
+ /var/www/html/SOURCES/gateway/main.c

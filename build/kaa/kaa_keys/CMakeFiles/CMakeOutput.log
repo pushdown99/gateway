@@ -10,36 +10,36 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_12304/fast"
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-/usr/bin/make -f CMakeFiles/cmTC_12304.dir/build.make CMakeFiles/cmTC_12304.dir/build
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_12304.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_12304.dir/testCCompiler.c.o   -c /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_12304
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12304.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_12304.dir/testCCompiler.c.o  -o cmTC_12304 -rdynamic 
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_b7d02/fast"
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/make -f CMakeFiles/cmTC_b7d02.dir/build.make CMakeFiles/cmTC_b7d02.dir/build
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_b7d02.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b7d02.dir/testCCompiler.c.o   -c /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b7d02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7d02.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b7d02.dir/testCCompiler.c.o  -o cmTC_b7d02 -rdynamic 
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5973d/fast"
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-/usr/bin/make -f CMakeFiles/cmTC_5973d.dir/build.make CMakeFiles/cmTC_5973d.dir/build
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_5973d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5973d.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o  -o cmTC_5973d -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_c63ea/fast"
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/make -f CMakeFiles/cmTC_c63ea.dir/build.make CMakeFiles/cmTC_c63ea.dir/build
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c63ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c63ea.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o  -o cmTC_c63ea -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -49,26 +49,26 @@ Thread model: posix
 gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~16.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5973d' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9rsQ93.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5973d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5973d' '-rdynamic' '-mtune=generic' '-march=x86-64'
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c63ea' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyXnyMm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c63ea /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c63ea' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5973d/fast"]
-  ignore line: [make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5973d.dir/build.make CMakeFiles/cmTC_5973d.dir/build]
-  ignore line: [make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감]
-  ignore line: [Building C object CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_5973d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5973d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o  -o cmTC_5973d -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c63ea/fast"]
+  ignore line: [make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c63ea.dir/build.make CMakeFiles/cmTC_c63ea.dir/build]
+  ignore line: [make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감]
+  ignore line: [Building C object CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c63ea]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c63ea.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o  -o cmTC_c63ea -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -78,13 +78,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~16.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5973d' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9rsQ93.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5973d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c63ea' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyXnyMm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c63ea /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9rsQ93.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyXnyMm.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -102,7 +102,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5973d] ==> ignore
+    arg [cmTC_c63ea] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbegin.o] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_5973d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c63ea.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -148,19 +148,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b02d7/fast"
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-/usr/bin/make -f CMakeFiles/cmTC_b02d7.dir/build.make CMakeFiles/cmTC_b02d7.dir/build
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_b02d7.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_b02d7.dir/feature_tests.c.o   -c /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b02d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b02d7.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b02d7.dir/feature_tests.c.o  -o cmTC_b02d7 -rdynamic 
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_2b53d/fast"
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/make -f CMakeFiles/cmTC_2b53d.dir/build.make CMakeFiles/cmTC_2b53d.dir/build
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_2b53d.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_2b53d.dir/feature_tests.c.o   -c /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2b53d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b53d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2b53d.dir/feature_tests.c.o  -o cmTC_2b53d -rdynamic 
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -170,19 +170,19 @@ make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFile
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cd997/fast"
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-/usr/bin/make -f CMakeFiles/cmTC_cd997.dir/build.make CMakeFiles/cmTC_cd997.dir/build
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_cd997.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_cd997.dir/feature_tests.c.o   -c /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cd997
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd997.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_cd997.dir/feature_tests.c.o  -o cmTC_cd997 -rdynamic 
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_b99ab/fast"
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/make -f CMakeFiles/cmTC_b99ab.dir/build.make CMakeFiles/cmTC_b99ab.dir/build
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_b99ab.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b99ab.dir/feature_tests.c.o   -c /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b99ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b99ab.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b99ab.dir/feature_tests.c.o  -o cmTC_b99ab -rdynamic 
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -192,19 +192,19 @@ make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFile
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ea3c/fast"
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-/usr/bin/make -f CMakeFiles/cmTC_2ea3c.dir/build.make CMakeFiles/cmTC_2ea3c.dir/build
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_2ea3c.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_2ea3c.dir/feature_tests.c.o   -c /var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2ea3c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea3c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2ea3c.dir/feature_tests.c.o  -o cmTC_2ea3c -rdynamic 
-make[4]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
-make[3]: 디렉터리 '/var/www/html/DEBIAN/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+Run Build Command:"/usr/bin/make" "cmTC_64bd2/fast"
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/make -f CMakeFiles/cmTC_64bd2.dir/build.make CMakeFiles/cmTC_64bd2.dir/build
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_64bd2.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_64bd2.dir/feature_tests.c.o   -c /var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/feature_tests.c
+Linking C executable cmTC_64bd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64bd2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_64bd2.dir/feature_tests.c.o  -o cmTC_64bd2 -rdynamic 
+make[4]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
+make[3]: 디렉터리 '/var/www/html/SOURCES/gateway/build/kaa/kaa_keys/CMakeFiles/CMakeTmp' 나감
 
 
     Feature record: C_FEATURE:1c_function_prototypes

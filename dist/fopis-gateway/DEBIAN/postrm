@@ -1,2 +1,0 @@
-#!/bin/sh
-/bin/rm -f /etc/profile.d/fopis-gateway.sh
